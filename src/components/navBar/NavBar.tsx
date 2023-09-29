@@ -53,7 +53,7 @@ const NavBar = () => {
         const calcularREM = () => {
             if (window.innerWidth >= window.innerHeight) REM = 0.01 * window.innerHeight + 10;
             if (window.innerWidth < window.innerHeight) REM = 0.01 * window.innerWidth + 10;
-            breakPoint = 62.5 * REM;
+            breakPoint = 55 * REM;
         }
          
         calcularREM();
@@ -113,10 +113,11 @@ const NavBar = () => {
                 <div className="tapaMenu"></div>
                 <div className="menu flex">
                     <img src="/images/logos/logo.png" alt="Caternorte Logo" className="navBarLogo"/>
-                    <HashLink className="opcion flex" to="/">Home</HashLink>
-                    <HashLink className="opcion flex" to="/">Productos</HashLink>
-                    <HashLink className="opcion flex" to="/">Servicios</HashLink>
-                    <HashLink className="opcion flex" to="/">Nosotros</HashLink>
+                    <HashLink className="opcion flex" to="/">Empresa</HashLink>
+                    <HashLink className="opcion flex" to="/">Fundicion</HashLink>
+                    <HashLink className="opcion flex" to="/">Poleas</HashLink>
+                    <HashLink className="opcion flex" to="/">Clientes</HashLink>
+                    <HashLink className="opcion flex" to="/">Calidad</HashLink>
                     <HashLink className="opcion flex" to="/">Contacto</HashLink>
                 </div>
                 <div className="sharp"></div>
