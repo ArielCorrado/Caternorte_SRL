@@ -1,22 +1,26 @@
 .slider1Cont {
     position: relative;
-    height: calc(100vh - var(--alto-bg-navbar));
+    min-height: calc(100vh - var(--alto-bg-navbar));
     width: 100%;
 }
 
 .slider1Img {
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
+    width: 100%;
     object-fit: cover;
     filter: brightness(50%) contrast(100%);
 }
 
 .slider1TextoCont {
-    position: absolute;
     align-items: flex-start;
     text-align: left;
     max-width: 100%;
     padding: 0 var(--horizontal-padding-seccions);
+    z-index: 100;
+    margin: 4rem 0;
 }
 
 .slider1TextoCont p {

@@ -1,7 +1,6 @@
 import { useEffect} from "react";
 import { useLocation } from 'react-router-dom';
 import { HashLink } from "react-router-hash-link";
-import { Link } from "react-router-dom";
 import "./navBar.css";
 
 const NavBar = () => {
