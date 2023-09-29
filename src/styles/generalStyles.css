@@ -1,0 +1,10 @@
+.seccions {
+    min-height: calc(100vh - var(--alto-bg-navbar));
+    width: 100%;
+    margin-top: var(--alto-bg-navbar);
+    padding: var(--vertical-padding-seccions) var(--horizontal-padding-seccions); 
+}
+
+.displayOn {
+    display: flex !important;
+}

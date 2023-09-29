@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');  /* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap'); /* font-family: 'EB Garamond', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');  /* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /* font-family: 'Petrona', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;500;600;700;900&display=swap'); /* font-family: 'Zen Old Mincho', serif; */
+
+:root {
+    --color-web-1: #ff5e15;
+    --color-web-2: #262626;
+    --color-web-3: #f6f6f6;
+    --color-web-4: #ffffff;
+
+    --alto-bg-navbar: 5rem;
+    
+    --alto-navbar: 4rem;
+    --color-navbar: var(--color-web-1);
+    --color-navbar-hover: var(--color-web-3);
+    --font-size-navbar-landscape: 18px;
+    --font-size-navbar-portrait: 16px;
+
+    --text-dark-color: rgb(68, 68, 68);
+    --text-light-color: white;
+
+    --vertical-padding-seccions: 2rem;
+    --horizontal-padding-seccions: 1rem;
+    --bg-light-color-seccions: white; 
+
+    --buttons-color: var(--color-web-3);
+
+    --icons-with-bg-white-filter-invert: 60%; 
+    --close-icon-right: 1rem;
+    --close-icon-top: 1rem;
+
+    --font-size-letras-chicas-landscape: 20px;
+    --font-size-letras-chicas-portrait: 17px;
+    --font-style-principal: 'Poppins', sans-serif;
+
+    --font-size-letras-grandes-landscape: 25px;
+    --font-size-letras-grades-portrait: 22px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    list-style: none;
+    font-size: 1rem;
+    font-family: var(--font-style-principal);
+    color: var(--text-light-color);
+    text-align: center;
+}
+
+body {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.opb {
+    object-position: bottom;
+}
+
+.opt {
+    object-position: top;
+}
+
+.opc {
+    object-position: center;
+}
+
+.opr {
+    object-position: right;
+}
+
+.opl {
+    object-position: left;
+}
+
+@media only screen and (orientation: landscape) {
+    html {
+        font-size: calc(1vh + 10px);
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    html {
+        font-size: calc(1vw + 10px);
+    }
+}
+

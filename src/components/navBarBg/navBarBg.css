@@ -1,0 +1,61 @@
+.navBarBgCont {
+    position: fixed;
+    background-color: var(--color-web-4);
+    height: var(--alto-bg-navbar);
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.navBarBgLogoImg {
+    position: absolute;
+    height: 70%;
+    left: 2rem;
+    width: auto;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    filter: brightness(90%) saturate(150%);
+}
+
+.navBarBgContactCont {
+    display: flex;
+    height: calc(var(--alto-bg-navbar) / 2);
+    margin-right: 2rem;
+}
+
+.navBarBgContactCont p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--text-dark-color);
+    letter-spacing: initial;
+}
+
+.navBarBgContactWs, .navBarBgContactPhone, .navBarBgContactEmail {
+    height: 100%;
+    margin-left: 1rem;
+}
+
+.navBarBgContactEmail {
+    height: 90%;
+}
+
+.navBarBgContactImg {
+    height: 40%;
+    margin-right: 0.5rem;
+}
+
+@media only screen and (orientation: portrait) {
+   
+    .navBarBgContactEmail {
+        display: none;
+    }
+
+    .navBarBgContactCont {
+        margin-right: 0.5rem;
+    }
+    
+}
