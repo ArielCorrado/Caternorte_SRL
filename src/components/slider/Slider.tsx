@@ -19,6 +19,7 @@ function Slider() {
                     la industria <br />en el mercado Argentino 
                     y mercados regionales.
                 </p>
+                <button className="slider1Button flex">Productos <span className="slider1ButtonSign">&gt;</span></button>
             </div>
         </div>
     )
