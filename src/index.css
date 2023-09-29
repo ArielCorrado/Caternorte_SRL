@@ -6,7 +6,6 @@
 
 :root {
     --color-web-1: #ff5e15;
-    --color-web-1: #ff5e15;
     --color-web-2: #262626;
     --color-web-3: #f6f6f6;
     --color-web-4: #ffffff;
@@ -38,6 +37,12 @@
 
     --font-size-letras-grandes-landscape: 25px;
     --font-size-letras-grades-portrait: 22px;
+}
+
+@media only screen and (orientation:portrait) {
+    :root {
+        --color-web-1: #ec5d1b;
+    }
 }
 
 * {
