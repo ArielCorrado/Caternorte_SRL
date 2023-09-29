@@ -61,6 +61,7 @@
     } 
 
     .slider1Img {
-        object-position: left bottom;
+        object-position: 20% bottom;
+        filter: brightness(20%) contrast(90%);
     }
 }
