@@ -24,21 +24,24 @@
 }
 
 .slider1Texto1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 1rem;
 }
 
 .slider1Texto2 {
     font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .slider1Texto3, .slider1Texto4 {
-    width: 40rem;
+    width: 60rem;
     max-width: 100%;
     font-size: 1rem;
+    line-height: 1.5;
 }
 
 .slider1Texto4 {

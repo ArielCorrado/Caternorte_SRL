@@ -18,8 +18,12 @@ function NavBarBg() {
                 </div>
                 <div className="navBarBgContactEmail flex">
                     <img src="/images/icons/email.png" alt="" className="navBarBgContactImg"/>
-                    <p>info@caternorte.com</p>                
+                    <p>info.carternorte@gmail.com</p>                
                 </div>
+                <a className="navBarBgContactLocation flex" href="https://maps.app.goo.gl/esH5A9nVQK4FTpv3A" target="_blank" rel="noreferrer">
+                    <img src="/images/icons/location.png" alt="" className="navBarBgContactImg"/>
+                    <p>Ubicación</p>                
+                </a>
             </div>
         </div>
     )

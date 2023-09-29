@@ -34,7 +34,7 @@
     letter-spacing: initial;
 }
 
-.navBarBgContactWs, .navBarBgContactPhone, .navBarBgContactEmail {
+.navBarBgContactWs, .navBarBgContactPhone, .navBarBgContactEmail, .navBarBgContactLocation {
     height: 100%;
     margin-left: 1rem;
 }
@@ -51,6 +51,10 @@
 @media only screen and (orientation: portrait) {
    
     .navBarBgContactEmail {
+        display: none;
+    }
+
+    .navBarBgContactLocation {
         display: none;
     }
 
