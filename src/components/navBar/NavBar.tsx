@@ -115,7 +115,7 @@ const NavBar = () => {
                     <img src="/images/logos/logo.png" alt="Caternorte Logo" className="navBarLogo"/>
                     <HashLink className="opcion flex" to="/">Home</HashLink>
                     <HashLink className="opcion flex" to="/">Productos</HashLink>
-                    <HashLink className="opcion flex" to="/ingredients">Servicios</HashLink>
+                    <HashLink className="opcion flex" to="/">Servicios</HashLink>
                     <HashLink className="opcion flex" to="/">Nosotros</HashLink>
                     <HashLink className="opcion flex" to="/">Contacto</HashLink>
                 </div>
