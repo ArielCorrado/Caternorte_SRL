@@ -5,8 +5,9 @@
     --icon-width: 20%;
     --icon--height: 4rem;
     --animation-duration: 0.35s;
+    --card-border-radius: 0.25rem;
     border: 1px solid rgb(231, 231, 231);
-    border-radius: 0.25rem;
+    border-radius: var(--card-border-radius);
     box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
     margin: 2rem;
     max-width: 100%;
@@ -66,6 +67,7 @@
     background-color: rgba(255, 255, 255, 0.950);
     padding: 2rem;
     align-items: flex-start;
+    border-radius: var(--card-border-radius);
 }
 
 .homeProductCardDesc {
