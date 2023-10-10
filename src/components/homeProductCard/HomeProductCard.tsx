@@ -23,12 +23,14 @@ function HomeProductCard ({imgSrc, iconSrc, title, description, descriptionTitle
             const homeProductCardCont = cardRef.current as HTMLDivElement;
             const homeProductCardIconCont = cardRef.current.querySelector(".homeProductCardIconCont") as HTMLDivElement;
             const homeProductCardTitleCont = cardRef.current.querySelector(".homeProductCardTitleCont") as HTMLDivElement;
+            const homeProductCardImg = cardRef.current.querySelector(".homeProductCardImg") as HTMLImageElement;   
                 
             homeProductCardCont.addEventListener("mouseover", () => {
                 homeProductCardDescCont.classList.remove("homeProductCardDescContAnimationUp");
                 homeProductCardDescCont.classList.add("homeProductCardDescContAnimationDown");
                 homeProductCardIconCont.classList.add("opacity0");
                 homeProductCardTitleCont.classList.add("opacity0");
+                homeProductCardImg.classList.add("opacity0");
             })
     
             homeProductCardCont.addEventListener("mouseleave", () => {
@@ -36,6 +38,7 @@ function HomeProductCard ({imgSrc, iconSrc, title, description, descriptionTitle
                 homeProductCardDescCont.classList.add("homeProductCardDescContAnimationUp");
                 homeProductCardIconCont.classList.remove("opacity0");
                 homeProductCardTitleCont.classList.remove("opacity0");
+                homeProductCardImg.classList.remove("opacity0");
             })
 
         }        
@@ -44,7 +47,7 @@ function HomeProductCard ({imgSrc, iconSrc, title, description, descriptionTitle
 
     return (
         <div className="homeProductCardCont flex" ref={cardRef}>
-            <img src={imgSrc} alt="Caternorte Home Product" className="homeProductCardImg"/>
+            <img src={imgSrc} alt="Caternorte Home Product" className="homeProductCardImg opacityTransition035"/>
             <div className="homeProductCardIconCont opacityTransition035 flex"><img src={iconSrc} alt="Caternorte Home Product Icon" className="homeProductCardIcon"/></div>
             <div className="homeProductCardTitleCont opacityTransition035 flex"><p className="homeProductCardTitle">{title}</p></div>
 
