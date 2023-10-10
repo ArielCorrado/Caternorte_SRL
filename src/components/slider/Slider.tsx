@@ -1,4 +1,5 @@
 import "./slider.css";
+import Button1 from "../buttons/Button1";
 
 function Slider() {
     return (
@@ -19,7 +20,7 @@ function Slider() {
                     Desde componentes industriales hasta obras de arte fundidas, transformamos metal en soluciones que cumplen con los estándares más exigentes.
                     Descubre la magia de la fundición con nosotros.
                 </p>
-                <button className="slider1Button flex">Productos <span className="slider1ButtonSign">&gt;</span></button>
+                <Button1 buttonText="Productos" className="button1"/>
             </div>
         </div>
     )

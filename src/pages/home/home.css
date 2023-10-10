@@ -4,3 +4,9 @@
     margin-top: var(--alto-bg-navbar);
     background-color: black;
 }
+
+.homeProductCardsCont {
+    min-height: calc(100vh - var(--alto-bg-navbar));
+    width: 100%;
+    background-color: var(--bg-light-color-seccions);
+}

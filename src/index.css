@@ -19,11 +19,11 @@
     --font-size-navbar-portrait: 16px;
 
     --text-dark-color: rgb(68, 68, 68);
-    --text-light-color: white;
+    --text-light-color: var(--color-web-4);
 
     --vertical-padding-seccions: 2rem;
     --horizontal-padding-seccions: 1rem;
-    --bg-light-color-seccions: white; 
+    --bg-light-color-seccions: var(--color-web-4); 
 
     --buttons-color: var(--color-web-3);
 

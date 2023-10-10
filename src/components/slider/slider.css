@@ -52,23 +52,6 @@
     display: none;
 }
 
-.slider1Button {
-    background-color: var(--color-web-1);
-    border: none;
-    padding: 1rem 2rem;
-    margin-top: 3rem;
-    border-radius: 0.25rem;
-    text-transform: uppercase;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.slider1ButtonSign {
-    display: inline-block;
-    transform: scale(140%);
-    margin-left: 1rem;
-}
-
 @media only screen and (orientation: portrait) {
 
     .slider1Texto1 {

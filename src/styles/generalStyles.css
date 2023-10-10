@@ -8,3 +8,41 @@
 .displayOn {
     display: flex !important;
 }
+
+/*************************************************/
+
+.opacityTransition035 {
+    transition-property: opacity;
+    transition-duration: 0.35s;
+    transition-timing-function: ease-out;
+}
+
+/*************************************************/
+
+.opacity1 {
+    opacity: 1;
+}
+
+.opacity0 {
+    opacity: 0 !important;
+}
+
+/******************* Boton 1 *******************/
+
+.button1 {
+    background-color: var(--color-web-1);
+    border: none;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.button1Sign {
+    display: inline-block;
+    transform: scale(140%);
+    margin-left: 1rem;
+}
