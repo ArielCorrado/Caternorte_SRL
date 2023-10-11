@@ -15,8 +15,6 @@
 }
 
 .slider1TextoCont {
-    align-items: flex-start;
-    text-align: left;
     max-width: 100%;
     padding: 0 var(--horizontal-padding-seccions);
     z-index: 100;
@@ -24,7 +22,7 @@
 }
 
 .slider1TextoCont p {
-    text-align: left;
+    text-align: center;
 }
 
 .slider1Texto1 {
