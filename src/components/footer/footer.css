@@ -81,4 +81,9 @@
     .footerDatosCont {
         align-items: flex-start;
     }
+
+    .footerBg {
+        left: 0;
+        width: 100%;
+    }
 }
