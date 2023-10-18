@@ -116,5 +116,12 @@
     }
 }
 
+@media only screen and (orientation: portrait) {
+
+    .homeProductCardCont { 
+        margin: 2rem 0;
+    }
+}
+
 
 
