@@ -16,7 +16,7 @@ function Home() {
         imgSrc: "/images/products/cones/1b.jpg",
         iconSrc: "/images/icons/cone.png",
         title: "Conos",
-        description: "Este tipo de elemento de transmisión tiene la finalidad de facilitar el montaje y desmontaje de poleas. Su uso permite que un mismo elemento de transmisión de potenciapueda ser montado en distintos diámetros de eje, solo cambiando esta pieza.",
+        description: "Este tipo de elemento de transmisión tiene la finalidad de facilitar el montaje y desmontaje de poleas. Su uso permite que un mismo elemento de transmisión de potencia pueda ser montado en distintos diámetros de eje, solo cambiando esta pieza.",
         descriptionTitle: "Cono"
     }
 

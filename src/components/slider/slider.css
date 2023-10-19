@@ -11,7 +11,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    filter: brightness(50%) contrast(100%);
+    filter: brightness(70%) contrast(95%);
 }
 
 .slider1TextoCont {
@@ -71,7 +71,7 @@
     } 
 
     .slider1Img {
-        object-position: 20% bottom;
-        filter: brightness(20%) contrast(90%);
+        object-position: left;
+        filter: brightness(60%) contrast(95%);
     }
 }
