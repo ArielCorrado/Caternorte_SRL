@@ -2,16 +2,16 @@
     padding: 2rem 0;
     position: relative;
     background-color: #131313ef;
+    overflow: hidden;
 }
 
 .footerBg {
     position: absolute;
-    width: 50%;
+    width: 45%;
     height: 100%;
     top: 0;
-    left: 15%;
+    left: 25%;
     object-fit: cover;
-    object-position: bottom;
     z-index: -1;
     filter: grayscale(100%) invert(100%);
 }
@@ -59,6 +59,7 @@
 .footerIcons {
     height: 1.25rem;
     margin-right: 1rem;
+    margin-left: 0.5rem;
     align-self: flex-start;
 }
 
@@ -119,6 +120,18 @@
         justify-content: center;
         padding-right: 0;
         padding-bottom: 2rem;
+    }
+
+    .footerBg {
+        position: absolute;
+        width: 200%;
+        height: 100%;
+        top: 0;
+        left: -20%;
+        object-fit: cover;
+        object-position: bottom;
+        z-index: -1;
+        filter: grayscale(100%) invert(100%);
     }
 
 }
