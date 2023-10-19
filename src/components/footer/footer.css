@@ -1,5 +1,5 @@
 .footerCont {
-    padding: 1rem 0;
+    padding: 2rem 0;
     position: relative;
     background-color: #131313ef;
 }
@@ -9,33 +9,57 @@
     width: 50%;
     height: 100%;
     top: 0;
-    left: 25%;
+    left: 15%;
     object-fit: cover;
     object-position: bottom;
     z-index: -1;
     filter: grayscale(100%) invert(100%);
 }
 
-.footerContIzq, .footerContDer {
-    width: 50%;
+.footerCont2 {
     height: 100%;
-    padding: 1rem;
     z-index: 100;
 }
 
 .footerContIzq {
     justify-content: flex-end;
     align-items: flex-start;
+    padding-right: 1rem;
 }
 
 .footerContDer {
     align-items: flex-start;
-    border-left: 1px solid rgb(54, 54, 54);
+    border-left: 1px solid rgb(48, 48, 48);
+    display: grid;
+    grid-template-areas: "tel ws"
+                         "mail loc"
+                         "horario horario";
+}
+
+.footerDatosContPhone {
+    grid-area: tel;
+}
+
+.footerDatosContMail {
+    grid-area: mail;
+}
+
+.footerDatosContWs {
+    grid-area: ws;
+}
+
+.footerDatosContLocation {
+    grid-area: loc;
+}
+
+.footerDatosContSchedules {
+    grid-area: horario;
 }
 
 .footerIcons {
     height: 1.25rem;
     margin-right: 1rem;
+    align-self: flex-start;
 }
 
 .footerEmailIcon {
@@ -43,47 +67,58 @@
 }
 
 .footerDatosCont {
-    margin: 0.70rem 0;
+    margin: 0.5rem 0;
+    margin-left: 1rem;
+    justify-content: flex-start;
+}
+
+.footerDatosContSchedules {
+    grid-area: horario;
+    justify-content: center;
 }
 
 .footerTextos {
-    font-size: 18px;
+    font-size: 16px;
+    text-align: left;
 }
 
 .footerLogo {
-    height: 5rem;
+    height: 6rem;
 }
 
 @media only screen and (orientation: portrait) {
 
     .footerCont {
+        padding: 2rem 1rem;
+    }
+
+    .footerCont2 {
         flex-direction: column;
-        padding: 1rem;
     }
 
-    .footerContIzq, .footerContDer { 
-        width: 100%;
+    .footerDatosCont {
+        margin: 0.75rem 0;
+        margin-left: 1rem;
     }
 
-    .footerContIzq {
-        justify-content: center;
+    .footerLogo {
+        height: 5rem;
     }
 
     .footerContDer {
-        border-left: none;
+        grid-template-areas: "tel"
+                             "ws"
+                             "mail"
+                             "loc"
+                             "horario";
+        border-left: none;                     
     }
 
-    .footerTextos {
-        font-size: 16px;
-        text-align: left;
-    }
-    
-    .footerDatosCont {
-        align-items: flex-start;
-    }
-
-    .footerBg {
-        left: 0;
+    .footerContIzq {
         width: 100%;
+        justify-content: center;
+        padding-right: 0;
+        padding-bottom: 2rem;
     }
+
 }

@@ -111,7 +111,7 @@ const NavBar = () => {
                 <img className="iconoMenu" src="/images/icons/menu.png" alt="Icono Menu"/>
                 <div className="tapaMenu"></div>
                 <div className="menu flex">
-                    <img src="/images/logos/logo.png" alt="Caternorte Logo" className="navBarLogo"/>
+                    <img src="/images/logos/logom.png" alt="Caternorte Logo" className="navBarLogo"/>
                     <HashLink className="opcion flex" to="/">Empresa</HashLink>
                     <HashLink className="opcion flex" to="/">Fundicion</HashLink>
                     <HashLink className="opcion flex" to="/">Poleas</HashLink>

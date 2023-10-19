@@ -5,7 +5,7 @@ function NavBarBg() {
 
     return (
         <div className="navBarBgCont flex">
-            <img src="/images/logos/logo.png" alt="Caternorte Logo" className="navBarBgLogoImg"/>
+            <img src="/images/logos/logom.png" alt="Caternorte Logo" className="navBarBgLogoImg"/>
             <NavBar/>
             <div className="navBarBgContactCont flex">
                 <div className="navBarBgContactWs flex">
