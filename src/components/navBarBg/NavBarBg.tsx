@@ -1,7 +1,44 @@
 import "./navBarBg.css";
 import NavBar from "../navBar/NavBar";
+import { useEffect } from 'react'; 
+import { useLocation } from "react-router-dom";
 
 function NavBarBg() {
+
+    const thisLocation = useLocation();
+    
+    useEffect(() => {
+
+        const footer : HTMLElement | null = document.querySelector(".footerCont2");       //Removemos OoSS para que se vuelva a hacer el efecto de "opacity on scroll" al cambiar de página
+        footer?.classList.remove("OoSS");
+
+        const OoS = () => {
+            const OoSElements: NodeListOf<HTMLElement> = document.querySelectorAll(".OoS");
+            OoSElements.forEach((element) => {                      //Mostramos el elemento cuando aparece su primer mitad
+                if (((element.getBoundingClientRect().top) <= (window.innerHeight - (element.offsetHeight / 2)))) element.classList.add("OoSS");
+            })
+        }
+        window.addEventListener("resize", OoS);
+        window.addEventListener("orientationchange", OoS);
+        window.addEventListener("scroll", OoS);
+        OoS();
+
+        let tempo: any;                                             //Si estamos 1 segundo sin hacer scroll y hay alguna parte de un elemento OoS visible lo mostramos
+        const handleTempo = () => {                                 //Se borra el temporizador actual y se crea un nuevo cada vez que hacemos scroll
+            clearTimeout(tempo);
+            tempo = setTimeout(() => {
+                const OoSElements = document.querySelectorAll(".OoS");
+                OoSElements.forEach((element) => {
+                    if (((element.getBoundingClientRect().top) < (window.innerHeight))) element.classList.add("OoSS");
+                })
+            }, 1000);
+        }
+        window.addEventListener("resize", handleTempo);
+        window.addEventListener("orientationchange", handleTempo);
+        window.addEventListener("scroll", handleTempo);
+        handleTempo();
+
+    }, [thisLocation]);    
 
     return (
         <div className="navBarBgCont flex">

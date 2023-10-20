@@ -46,7 +46,7 @@ function HomeProductCard ({imgSrc, iconSrc, title, description, descriptionTitle
     }, [])
 
     return (
-        <div className="homeProductCardCont flex" ref={cardRef}>
+        <div className="homeProductCardCont flex OoS" ref={cardRef}>
             <img src={imgSrc} alt="Caternorte Home Product" className="homeProductCardImg opacityTransition035"/>
             <div className="homeProductCardIconCont opacityTransition035 flex"><img src={iconSrc} alt="Caternorte Home Product Icon" className="homeProductCardIcon"/></div>
             <div className="homeProductCardTitleCont opacityTransition035 flex"><p className="homeProductCardTitle">{title}</p></div>

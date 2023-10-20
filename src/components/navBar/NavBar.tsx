@@ -117,7 +117,7 @@ const NavBar = () => {
                     <HashLink className="opcion flex" to="/">Poleas</HashLink>
                     <HashLink className="opcion flex" to="/">Clientes</HashLink>
                     <HashLink className="opcion flex" to="/">Calidad</HashLink>
-                    <HashLink className="opcion flex" to="/">Contacto</HashLink>
+                    <HashLink className="opcion flex" to="/contact">Contacto</HashLink>
                 </div>
                 <div className="sharp"></div>
             </div>

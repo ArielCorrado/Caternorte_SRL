@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className="footerCont flex">
             <img src="/images/backgrounds/bg2.png" alt="Caternorte Footer Backgroubnd" className="footerBg"/>
-            <div className="footerCont2 flex">
+            <div className="footerCont2 OoS flex">
                 <div className="footerContIzq flex">
                     <img src="/images/logos/logom2.png" alt="Caternorte Logo" className="footerLogo"/>
                 </div>
@@ -20,7 +20,7 @@ function Footer() {
                     </a>
                     <a className="footerDatosCont footerDatosContWs flex" href="https://wa.me/+5491134713398">
                         <img src="/images/icons/ws.png" alt="Caternorte Whatsapp Icon" className="footerIcons" />
-                        <p className="footerTextos">+54 911 34713398</p>
+                        <p className="footerTextos">+54 911 3471-3398</p>
                     </a>
                     <a className="footerDatosCont footerDatosContLocation flex" href="https://maps.app.goo.gl/esH5A9nVQK4FTpv3A" target="_blank" rel="noreferrer">
                         <img src="/images/icons/location.png" alt="Caternorte Location Icon" className="footerIcons" />
