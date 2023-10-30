@@ -11,6 +11,9 @@ function Contact() {
 
     return (
         <div className="seccions contactSeccion">
+
+            <img src="/images/quality/bgmin.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
+            <div className="qualityBgFilter"></div>
                                    
             <div className='contFormContacto flex column OoS animateTitleCorto'>
                 <form action="" className='form OoS' ref={formRef}>

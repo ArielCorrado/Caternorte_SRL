@@ -13,6 +13,8 @@
     left: 0;
     width: 100%;
     height: calc(100vh - var(--alto-bg-navbar));
+    object-fit: cover;
+    object-position: left;
 }
 
 .qualityBg {
@@ -160,7 +162,6 @@
 }
 
 @media only screen and (orientation: portrait) {
-
     
     .qualityCardTitleCont {
         position: absolute;
@@ -173,6 +174,10 @@
         clip-path: polygon(0.5rem 0, 100% 0%, calc(100% - 0.5rem) 100%, 0% 100%);
         pointer-events: none;
         z-index: 50;
+    }
+
+    .qualityBg {
+        object-position: 25%;
     }
 }
 
