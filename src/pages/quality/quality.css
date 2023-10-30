@@ -1,5 +1,6 @@
 .qualitySeccion {
     padding-bottom: 2rem;
+    background-color: var(--color-web-2);
 }
 
 .qualitySeccion p {
