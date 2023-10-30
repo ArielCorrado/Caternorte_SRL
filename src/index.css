@@ -40,7 +40,7 @@
     --font-size-letras-grandes-landscape: 25px;
     --font-size-letras-grades-portrait: 22px;
 
-    --border-bg-white: rgb(121, 121, 121);
+    --border-bg-dark: rgb(121, 121, 121);
 }
 
 @media only screen and (orientation:portrait) {

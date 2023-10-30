@@ -1,13 +1,17 @@
+.qualitySeccion {
+    padding-bottom: 2rem;
+}
+
 .qualitySeccion p {
     color: white;
 }
 
 .qualityBg, .qualityBgFilter {
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: var(--alto-bg-navbar);
     left: 0;
     width: 100%;
-    height: 100%;
+    height: calc(100vh - var(--alto-bg-navbar));
 }
 
 .qualityBg {
@@ -28,13 +32,13 @@
 }
 
 .qualityIntro1 {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     line-height: 1.5;
 }
 
 .qualityIntro2 {
     margin-top: 1rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
 }
 
@@ -42,20 +46,30 @@
     width: 50rem;
     max-width: 100%;
     z-index: 10;
+    padding: 4rem 0;
+}
+
+.qualityTypes {
+    margin-bottom: 2rem;
+    font-size: 1.20rem;
 }
 
 .qualityCardsIzqCont, .qualityCardsDerCont {
     width: 50%;
 }
 
+.qualityCardsIzqCont {
+    border-right: 1px solid rgb(63, 63, 63);
+}
+
 .qualityCardCont {
     position: relative;
     width: 80%;
-    height: 15rem;
-    border: 1px solid var(--border-bg-white);
+    height: 17rem;
+    border: 1px solid var(--border-bg-dark);
     background-color: white;
     padding: 1rem;
-    margin-top: 3rem;
+    margin-bottom: 5rem;
     cursor: pointer;
 }
 

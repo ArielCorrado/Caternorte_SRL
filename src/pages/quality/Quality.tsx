@@ -17,7 +17,7 @@ function Quality() {
 
             <img src="/images/quality/bg.jpg" alt="Caternorte calidad background" className="qualityBg"/>
             <div className="qualityBgFilter"></div>
-
+          
             <div className="qualityIntroCont flex column OoS">
                 <p className="qualityIntro1">
                     Nuestros metales son producidos bajo las normas internacionales que nos exigen nuestros clientes, como por ejemplo ASTM A48-41, ASTM A536, norma SAE J431 y otras.
@@ -30,6 +30,9 @@ function Quality() {
 
             <div className="qualityCardsCont flex">
                 <div className="qualityCardsIzqCont flex column OoS">
+                    <p className="qualityTypes">
+                        Medición de metales
+                    </p>
                     <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
                         <img src="/images/quality/durometro.jpg" alt="Durometro" className="qualityCardImg" />
                         <div className="qualityCardTitleCont">
@@ -50,6 +53,9 @@ function Quality() {
                     </div>
                 </div>
                 <div className="qualityCardsDerCont flex column OoS">
+                    <p className="qualityTypes">
+                        Medición de tierras
+                    </p>
                     <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
                         <img src="/images/quality/phmetro.jpg" alt="Durometro" className="qualityCardImg" />
                         <div className="qualityCardTitleCont">
