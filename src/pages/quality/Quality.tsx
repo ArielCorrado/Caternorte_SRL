@@ -30,7 +30,7 @@ function Quality() {
 
             <div className="qualityCardsCont flex">
                 <div className="qualityCardsIzqCont flex column OoS">
-                    <p className="qualityTypes">
+                    <p className="qualityTypes flex">
                         Medición de metales
                     </p>
                     <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
@@ -53,7 +53,7 @@ function Quality() {
                     </div>
                 </div>
                 <div className="qualityCardsDerCont flex column OoS">
-                    <p className="qualityTypes">
+                    <p className="qualityTypes flex">
                         Medición de tierras
                     </p>
                     <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
