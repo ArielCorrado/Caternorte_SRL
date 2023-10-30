@@ -11,6 +11,8 @@
     --color-web-4: #ffffff;
 
     --alto-bg-navbar: 5rem;
+
+    --color-bg-footer: #161616;
     
     --alto-navbar: 4rem;
     --color-navbar: var(--color-web-1);
@@ -37,6 +39,8 @@
 
     --font-size-letras-grandes-landscape: 25px;
     --font-size-letras-grades-portrait: 22px;
+
+    --border-bg-white: rgb(121, 121, 121);
 }
 
 @media only screen and (orientation:portrait) {

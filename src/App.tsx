@@ -4,6 +4,7 @@ import NavBarBg from './components/navBarBg/NavBarBg';
 import Footer from './components/footer/Footer';
 import WsFloating from './components/wsFloating/WsFloating';
 import Contact from './pages/contact/Contact';
+import Quality from './pages/quality/Quality';
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
             <NavBarBg/>
             <WsFloating/>
             <Routes>
-                <Route path="/" element={<Home/>}/>         
+                <Route path="/" element={<Home/>}/>    
+                <Route path="/quality" element={<Quality/>}/>       
                 <Route path="/contact" element={<Contact/>}/>         
             </Routes>
             <Footer/>

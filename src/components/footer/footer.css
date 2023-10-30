@@ -2,8 +2,9 @@
     padding: 2rem 0;
     position: relative;
     overflow: hidden;
-    background-color: var(--color-web-2);
+    background-color: var(--color-bg-footer);
     border-top: 1px solid rgb(58, 58, 58);
+    z-index: 60;
 }
 
 .footerBg {
