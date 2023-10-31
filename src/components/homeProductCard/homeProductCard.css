@@ -13,6 +13,7 @@
     max-width: 100%;
     padding-top: 1rem;
     padding-bottom: var(--icon--height);
+    overflow: hidden;
 }
 
 .homeProductCardImg {
