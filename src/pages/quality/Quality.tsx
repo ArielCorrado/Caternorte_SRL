@@ -36,7 +36,7 @@ function Quality() {
                     <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
                         <img src="/images/quality/durometro.jpg" alt="Durometro" className="qualityCardImg" />
                         <div className="qualityCardTitleCont flex">
-                            <p className="qualityCardTitle">Durometro ROCKWELL</p>
+                            <p className="qualityCardTitle">Durometro ROCKWELL</p> 
                         </div>
                         <div className="qualityCardDescCont flex">
                             <p className="qualityCardDesc">Durometro ROCKWELL B y C: equipo para determinar durezas en dichas escalas de los aceros.</p>
