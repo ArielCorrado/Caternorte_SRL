@@ -15,7 +15,7 @@
     left: 0;
     object-fit: cover;
     z-index: 50;
-    filter: brightness(10%) contrast(90%);
+    filter: brightness(10%) contrast(95%);
 }
 
 .footerCont2 {
