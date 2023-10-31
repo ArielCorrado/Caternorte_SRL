@@ -29,11 +29,11 @@ function Quality() {
             </div>
 
             <div className="qualityCardsCont flex">
-                <div className="qualityCardsIzqCont flex wrap OoS">
-                    <p className="qualityTypes qualityTypesIzq flex">
+                <div className="qualityCardsIzqCont flex wrap">
+                    <p className="qualityTypes qualityTypesIzq OoS flex">
                         Medición de metales
                     </p>
-                    <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
+                    <div className="qualityCardCont OoS" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
                         <img src="/images/quality/durometro.jpg" alt="Durometro" className="qualityCardImg" />
                         <div className="qualityCardTitleCont flex">
                             <p className="qualityCardTitle">Durometro ROCKWELL</p> 
@@ -42,7 +42,7 @@ function Quality() {
                             <p className="qualityCardDesc">Durometro ROCKWELL B y C: equipo para determinar durezas en dichas escalas de los aceros.</p>
                         </div>
                     </div>
-                    <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
+                    <div className="qualityCardCont OoS" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
                         <img src="/images/quality/pirometro.jpg" alt="Durometro" className="qualityCardImg" />
                         <div className="qualityCardTitleCont flex">
                             <p className="qualityCardTitle">Pirómetro de inmersión</p>
@@ -52,11 +52,11 @@ function Quality() {
                         </div>
                     </div>
                 </div>
-                <div className="qualityCardsDerCont flex wrap OoS">
-                    <p className="qualityTypes qualityTypesDer flex">
+                <div className="qualityCardsDerCont flex wrap">
+                    <p className="qualityTypes qualityTypesDer OoS flex">
                         Medición de tierras
                     </p>
-                    <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
+                    <div className="qualityCardCont OoS" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
                         <img src="/images/quality/phmetro.jpg" alt="Durometro" className="qualityCardImg" />
                         <div className="qualityCardTitleCont flex">
                             <p className="qualityCardTitle">PHmetro</p>
@@ -65,7 +65,7 @@ function Quality() {
                             <p className="qualityCardDesc">Este equipo nos proporciona el pH (acidez) de las tierras de moldeo</p>
                         </div>
                     </div>
-                    <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
+                    <div className="qualityCardCont OoS" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
                         <img src="/images/quality/permeametro.jpg" alt="Durometro" className="qualityCardImg" />
                         <div className="qualityCardTitleCont flex">
                             <p className="qualityCardTitle">Permeámetro</p>
