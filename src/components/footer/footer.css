@@ -9,13 +9,13 @@
 
 .footerBg {
     position: absolute;
-    width: 45%;
+    width: 100%;
     height: 100%;
     top: 0;
-    left: 25%;
+    left: 0;
     object-fit: cover;
     z-index: 50;
-    filter: grayscale(100%) invert(100%) opacity(0.10);
+    filter: brightness(10%) contrast(90%);
 }
 
 .footerCont2 {

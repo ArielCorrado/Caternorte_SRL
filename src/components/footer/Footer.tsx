@@ -3,7 +3,7 @@ import "./footer.css";
 function Footer() {
     return (
         <div className="footerCont flex">
-            <img src="/images/backgrounds/bg2.png" alt="Caternorte Footer Backgroubnd" className="footerBg"/>
+            <img src="/images/backgrounds/bg13.jpg" alt="Caternorte Footer Backgroubnd" className="footerBg"/>
             <div className="footerCont2 OoS flex">
                 <div className="footerContIzq flex">
                     <img src="/images/logos/logom2.png" alt="Caternorte Logo" className="footerLogo"/>
