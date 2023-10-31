@@ -29,8 +29,8 @@ function Quality() {
             </div>
 
             <div className="qualityCardsCont flex">
-                <div className="qualityCardsIzqCont flex column OoS">
-                    <p className="qualityTypes flex">
+                <div className="qualityCardsIzqCont flex wrap OoS">
+                    <p className="qualityTypes qualityTypesIzq flex">
                         Medición de metales
                     </p>
                     <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
@@ -52,8 +52,8 @@ function Quality() {
                         </div>
                     </div>
                 </div>
-                <div className="qualityCardsDerCont flex column OoS">
-                    <p className="qualityTypes flex">
+                <div className="qualityCardsDerCont flex wrap OoS">
+                    <p className="qualityTypes qualityTypesDer flex">
                         Medición de tierras
                     </p>
                     <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
