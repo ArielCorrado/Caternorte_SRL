@@ -47,7 +47,7 @@ function NavBarBg() {
             <div className="navBarBgContactCont flex">
                 <div className="navBarBgContactWs flex">
                     <img src="/images/icons/ws.png" alt="" className="navBarBgContactImg"/>
-                    <p>+54 911 3471-3398</p>
+                    <p>11 3471-3398</p>
                 </div>
                 <div className="navBarBgContactPhone flex">
                     <img src="/images/icons/phone.png" alt="" className="navBarBgContactImg"/>

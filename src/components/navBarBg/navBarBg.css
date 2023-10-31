@@ -29,7 +29,7 @@
 }
 
 .navBarBgContactCont p {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 400;
     color: var(--text-dark-color);
     letter-spacing: initial;
@@ -61,6 +61,10 @@
 
     .navBarBgContactCont {
         margin-right: 0.5rem;
+    }
+
+    .navBarBgContactCont p {
+        font-size: 14px;
     }
     
 }
