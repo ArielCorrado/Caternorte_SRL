@@ -35,7 +35,7 @@ function Quality() {
                     </p>
                     <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
                         <img src="/images/quality/durometro.jpg" alt="Durometro" className="qualityCardImg" />
-                        <div className="qualityCardTitleCont">
+                        <div className="qualityCardTitleCont flex">
                             <p className="qualityCardTitle">Durometro ROCKWELL</p>
                         </div>
                         <div className="qualityCardDescCont flex">
@@ -44,7 +44,7 @@ function Quality() {
                     </div>
                     <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
                         <img src="/images/quality/pirometro.jpg" alt="Durometro" className="qualityCardImg" />
-                        <div className="qualityCardTitleCont">
+                        <div className="qualityCardTitleCont flex">
                             <p className="qualityCardTitle">Pirómetro de inmersión</p>
                         </div>
                         <div className="qualityCardDescCont flex">
@@ -58,7 +58,7 @@ function Quality() {
                     </p>
                     <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
                         <img src="/images/quality/phmetro.jpg" alt="Durometro" className="qualityCardImg" />
-                        <div className="qualityCardTitleCont">
+                        <div className="qualityCardTitleCont flex">
                             <p className="qualityCardTitle">PHmetro</p>
                         </div>
                         <div className="qualityCardDescCont flex">
@@ -67,7 +67,7 @@ function Quality() {
                     </div>
                     <div className="qualityCardCont" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
                         <img src="/images/quality/permeametro.jpg" alt="Durometro" className="qualityCardImg" />
-                        <div className="qualityCardTitleCont">
+                        <div className="qualityCardTitleCont flex">
                             <p className="qualityCardTitle">Permeámetro</p>
                         </div>
                         <div className="qualityCardDescCont flex">

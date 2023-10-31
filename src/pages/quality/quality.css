@@ -88,7 +88,7 @@
 .qualityCardTitleCont {
     position: absolute;
     background-color: var(--color-web-1);
-    min-width: 80%;
+    width: 90%;
     top: 100%;
     right: 0;
     transform: translateY(-50%) translateX(1rem);
@@ -162,18 +162,12 @@
 }
 
 @media only screen and (orientation: portrait) {
-    
+
     .qualityCardTitleCont {
-        position: absolute;
-        background-color: var(--color-web-1);
-        min-width: 80%;
-        top: 100%;
-        right: 0;
+        width: 100%;
+        height: 3.5rem;
         transform: translateY(-1.5rem) translateX(1rem);
         padding: 0.75rem 1.5rem;
-        clip-path: polygon(0.5rem 0, 100% 0%, calc(100% - 0.5rem) 100%, 0% 100%);
-        pointer-events: none;
-        z-index: 50;
     }
 
     .qualityBg {
