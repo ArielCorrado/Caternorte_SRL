@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 import WsFloating from './components/wsFloating/WsFloating';
 import Contact from './pages/contact/Contact';
 import Quality from './pages/quality/Quality';
+import Infrastructure from './pages/infrastructure/Infrastructure';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home/>}/>    
                 <Route path="/quality" element={<Quality/>}/>       
-                <Route path="/contact" element={<Contact/>}/>         
+                <Route path="/contact" element={<Contact/>}/>  
+                <Route path="/infrastructure" element={<Infrastructure/>}/>        
             </Routes>
             <Footer/>
         </BrowserRouter>

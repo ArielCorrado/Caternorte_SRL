@@ -41,6 +41,7 @@
     --font-size-letras-grades-portrait: 22px;
 
     --border-bg-dark: rgb(121, 121, 121);
+    --border-bg-light: rgb(185, 185, 185);
 }
 
 @media only screen and (orientation:portrait) {

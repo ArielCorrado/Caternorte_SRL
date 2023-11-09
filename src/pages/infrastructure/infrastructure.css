@@ -1,0 +1,62 @@
+.infrastructureCardsCont {
+    width: 70rem;
+    max-width: 100%;
+    align-items: flex-start;
+}
+
+.infrastructureCardsColumnCont {
+    width: 35rem;
+    justify-content: flex-start;
+}
+
+.infrastructureCardCont {
+    width: calc(100% - 4rem);
+    z-index: 10;
+    position: relative;
+    margin: 2rem;
+    background-color: var(--color-web-4);
+}
+
+.infrastructureCardRowCont, .infrastructureCardRowTitleCont {
+    min-height: 4rem;
+    padding: 1rem 2rem;
+}
+
+.infrastructureCardRowTitleCont  {
+    background-color: var(--color-web-1);
+    position: relative;
+    padding-left: 3.75rem;
+    width: 100%;
+}
+
+.infrastructureCardRowTitleImg {
+    position: absolute;
+    left: 1rem;
+    width: 2.75rem;
+    aspect-ratio: 1/1;
+    filter: invert(100%);
+}
+
+.infrastructureCardRowTitleContDark {
+    background-color: var(--color-web-2);
+}
+
+.infrastructureCardRowCont {
+    background-color: var(--color-web-4);
+    border-bottom: 1px solid var(--border-bg-light);
+}
+
+.infrastructureCardRowContPcipal p {
+    font-weight: 400;
+}
+
+.infrastructureCardRowTitleCont p {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.infrastructureCardRowCont  p {
+    color: var(--text-dark-color);
+    font-size: 1rem;
+}

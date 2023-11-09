@@ -113,7 +113,7 @@ const NavBar = () => {
                 <div className="menu flex">
                     <img src="/images/logos/logom.png" alt="Caternorte Logo" className="navBarLogo"/>
                     <HashLink className="opcion flex" to="/">Empresa</HashLink>
-                    <HashLink className="opcion flex" to="/">Fundicion</HashLink>
+                    <HashLink className="opcion flex" to="/infrastructure">Infraestructura</HashLink>
                     <HashLink className="opcion flex" to="/">Productos</HashLink>
                     <HashLink className="opcion flex" to="/">Clientes</HashLink>
                     <HashLink className="opcion flex" to="/quality">Calidad</HashLink>
