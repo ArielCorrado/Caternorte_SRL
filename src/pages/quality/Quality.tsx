@@ -98,7 +98,7 @@ function Quality() {
                             <p className="qualityCardTitle">Equipo de resistencia</p>
                         </div>
                         <div className="qualityCardDescCont flex">
-                            <p className="qualityCardDesc">Equipo de resistencia a la compresión, y partición de las tierras de moldeo que nos van a determinar dichas propiedades, con lo cual podemos garantizar una calidad de terminación satisfactoria.</p>
+                            <p className="qualityCardDesc">Equipo de resistencia a la compresión y partición de las tierras de moldeo que nos van a determinar dichas propiedades.</p>
                         </div>
                         
                     </div>

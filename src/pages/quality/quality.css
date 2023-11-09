@@ -48,8 +48,11 @@
 
 .qualityCardsCont {
     width: var(--width-cards-cont);
+    --qualityCardContWidth: 14rem;
+    --qualityCardContMargin: 2rem;
     z-index: 10;
     padding: 4rem 0;
+    align-items: flex-start;
 }
 
 .qualityTypes {
@@ -60,11 +63,13 @@
 }
 
 .qualityTypesIzq {
-    justify-content: flex-end;
+    background-color: var(--color-web-1);
+    width: calc(var(--qualityCardContWidth) * 2 + var(--qualityCardContMargin) * 4);
 }
 
 .qualityTypesDer {
-    justify-content: flex-start;
+    background-color: var(--color-web-2);
+    width: calc(var(--qualityCardContWidth) * 2 + var(--qualityCardContMargin) * 4);
 }
 
 .qualityCardsIzqCont, .qualityCardsDerCont {
@@ -82,13 +87,13 @@
 
 .qualityCardCont {
     position: relative;
-    width: 14rem;
+    width: var(--qualityCardContWidth);
     aspect-ratio: 1/1.3;
     border: 1px solid var(--border-bg-dark);
     background-color: white;
     padding: 1rem;
     padding-bottom: 2rem;
-    margin: 2rem;
+    margin: var(--qualityCardContMargin);
     margin-bottom: 5rem;
     cursor: pointer;
 }
