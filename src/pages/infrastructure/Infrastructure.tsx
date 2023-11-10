@@ -4,7 +4,7 @@ function Infrastructure () {
   
     return (
         <div className="seccions qualitySeccion flex">
-            <img src="/images/backgrounds/infrastructure2.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
+            <img src="/images/backgrounds/infrastructure2b.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
             <div className="qualityBgFilter"></div>
 
             <div className="infrastructureCardsCont flex wrap">

@@ -6,6 +6,7 @@ import WsFloating from './components/wsFloating/WsFloating';
 import Contact from './pages/contact/Contact';
 import Quality from './pages/quality/Quality';
 import Infrastructure from './pages/infrastructure/Infrastructure';
+import { Navigate } from 'react-router-dom';
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
                 <Route path="/" element={<Home/>}/>    
                 <Route path="/quality" element={<Quality/>}/>       
                 <Route path="/contact" element={<Contact/>}/>  
-                <Route path="/infrastructure" element={<Infrastructure/>}/>        
+                <Route path="/infrastructure" element={<Infrastructure/>}/>     
+                <Route path="*" element={<Navigate to="/"/>}/>     
             </Routes>
             <Footer/>
         </BrowserRouter>
