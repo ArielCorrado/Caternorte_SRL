@@ -1,7 +1,6 @@
 .qualitySeccion {
     padding-bottom: 1rem;
     background-color: var(--color-web-2);
-    --width-cards-cont: 100%;
 }
 
 .qualitySeccion p {
@@ -47,9 +46,10 @@
 }
 
 .qualityCardsCont {
-    width: var(--width-cards-cont);
+    max-width: 100%;
     --qualityCardContWidth: 14rem;
     --qualityCardContMargin: 2rem;
+    width: calc(var(--qualityCardContWidth) * 4 + var(--qualityCardContMargin) * 8 + 1rem);   /* si no se pone +1rem no entran las 4 cards en una linea (??) */
     z-index: 10;
     padding: 4rem 0;
     align-items: flex-start;
@@ -195,11 +195,19 @@
     }
 
     .qualityCardDesc {
-        font-size: 16px;
+        font-size: var(--font-size-normal-portrait);
     }
 
     .qualityCardTitle {
-        font-size: 16px;
+        font-size: var(--font-size-normal-portrait);
+    }
+
+    .qualityIntro2 {
+        font-size: var(--font-size-normal-portrait);
+    }
+    
+    .qualityCardDescCont { 
+        padding: 0.50rem;
     }
 }
 

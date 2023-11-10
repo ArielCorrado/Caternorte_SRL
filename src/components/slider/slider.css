@@ -67,7 +67,7 @@
 
     .slider1Texto4 {
         display: flex;
-        font-size: 16px;
+        font-size: var(--font-size-normal-portrait);
     } 
 
     .slider1Img {

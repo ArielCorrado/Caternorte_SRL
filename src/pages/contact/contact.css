@@ -4,7 +4,7 @@
 }
 
 .contFormContacto {
-    --ancho-form: 40rem;
+    --ancho-form: 45rem;
     width: 100%;
     height: fit-content;
     position: relative;

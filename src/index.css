@@ -18,7 +18,7 @@
     --color-navbar: var(--color-web-1);
     --color-navbar-hover: var(--color-web-3);
     --font-size-navbar-landscape: 18px;
-    --font-size-navbar-portrait: 16px;
+    --font-size-navbar-portrait: var(--font-size-normal-portrait);
 
     --text-dark-color: rgb(68, 68, 68);
     --text-light-color: var(--color-web-4);
@@ -29,15 +29,14 @@
 
     --buttons-color: var(--color-web-3);
 
+    --font-size-normal-portrait: 16px;
+
     --icons-with-bg-white-filter-invert: 60%; 
     --close-icon-right: 1rem;
     --close-icon-top: 1rem;
 
     --font-style-principal: 'Poppins', sans-serif;
-
-    --font-size-letras-grandes-landscape: 25px;
-    --font-size-letras-grades-portrait: 22px;
-
+ 
     --border-bg-dark: rgb(121, 121, 121);
     --border-bg-light: rgb(185, 185, 185);
 }
