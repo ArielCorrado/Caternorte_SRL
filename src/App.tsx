@@ -8,11 +8,16 @@ import Quality from './pages/quality/Quality';
 import Infrastructure from './pages/infrastructure/Infrastructure';
 import { Navigate } from 'react-router-dom';
 import "./styles/animations.css";
+import { SpinnerContext } from './context/spinnerContext';
+import { useContext } from 'react';
 
 function App() {
 
+    const {spinner} = useContext(SpinnerContext);
+
     return (
         <BrowserRouter>
+            {spinner}
             <NavBarBg/>
             <WsFloating/>
             <Routes>
