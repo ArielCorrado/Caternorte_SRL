@@ -9,7 +9,7 @@ function Infrastructure () {
 
             <div className="infrastructureCardsCont flex wrap">
                 <div className="infrastructureCardsColumnCont flex column">
-                    <div className="infrastructureCardCont flex column">
+                    <div className="infrastructureCardCont OoS">
                         <div className="infrastructureCardRowTitleCont flex">                            
                             <img src="/images/icons/moldeo.png" alt="Caternorte moldeo" className="infrastructureCardRowTitleImg"/>
                             <p>Moldeo</p>
@@ -25,7 +25,7 @@ function Infrastructure () {
                         </div>
                     </div>
 
-                    <div className="infrastructureCardCont">
+                    <div className="infrastructureCardCont OoS">
                         <div className="infrastructureCardRowTitleCont infrastructureCardRowTitleContDark flex">
                             <img src="/images/icons/ground.png" alt="Caternorte moldeo" className="infrastructureCardRowTitleImg"/>
                             <p>Preparación de Tierra</p>
@@ -63,8 +63,8 @@ function Infrastructure () {
 
                 <div className="infrastructureCardsColumnCont flex column">
                    
-                    <div className="infrastructureCardCont">
-                        <div className="infrastructureCardRowTitleCont infrastructureCardRowTitleContDark flex">
+                    <div className="infrastructureCardCont OoS">
+                        <div className="infrastructureCardRowTitleCont infrastructureCardRowTitleContDark orange flex">
                             <img src="/images/icons/colado.png" alt="Caternorte moldeo" className="infrastructureCardRowTitleImg"/>
                             <p>Fusión y Colado</p>
                         </div>
@@ -85,8 +85,8 @@ function Infrastructure () {
                         </div>
                     </div>
                     
-                    <div className="infrastructureCardCont">
-                        <div className="infrastructureCardRowTitleCont flex">
+                    <div className="infrastructureCardCont OoS">
+                        <div className="infrastructureCardRowTitleCont dark flex">
                             <img src="/images/icons/noyo.png" alt="Caternorte moldeo" className="infrastructureCardRowTitleImg"/>
                             <p>Noyería</p>
                         </div>

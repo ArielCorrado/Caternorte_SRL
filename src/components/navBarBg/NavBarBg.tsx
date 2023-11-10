@@ -31,7 +31,7 @@ function NavBarBg() {
                 OoSElements.forEach((element) => {
                     if (((element.getBoundingClientRect().top) < (window.innerHeight))) element.classList.add("OoSS");
                 })
-            }, 1000);
+            }, 500);
         }
         window.addEventListener("resize", handleTempo);
         window.addEventListener("orientationchange", handleTempo);
