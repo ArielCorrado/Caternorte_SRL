@@ -89,7 +89,7 @@ function Quality () {
                             <p className="qualityCardTitle">Balanza</p>
                         </div>
                         <div className="qualityCardDescCont flex">
-                            <p className="qualityCardDesc">Balanza secadora electrónica: para determinar la humedad de las tierras de moldeo  </p>
+                            <p className="qualityCardDesc">Balanza secadora electrónica: para determinar la humedad de las tierras de moldeo.</p>
                         </div>
                     </div>
                     <div className="qualityCardCont OoS" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>

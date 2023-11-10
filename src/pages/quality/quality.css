@@ -189,9 +189,17 @@
     }
 
     .qualityCardCont {
-        aspect-ratio: 1/1.4;
+        aspect-ratio: 1/1.7;
         margin: 1rem;
         margin-bottom: 4rem;
+    }
+
+    .qualityCardDesc {
+        font-size: 16px;
+    }
+
+    .qualityCardTitle {
+        font-size: 16px;
     }
 }
 
