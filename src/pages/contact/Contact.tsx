@@ -12,7 +12,7 @@ function Contact() {
     return (
         <div className="seccions contactSeccion seccionToWaitImages">
 
-            <img src="/images/backgrounds/contact.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
+            <img src="/images/backgrounds/contactb.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
             <div className="qualityBgFilter"></div>
                                    
             <div className='contFormContacto flex column OoS animateTitleCorto'>

@@ -12,6 +12,8 @@ function NavBarBg() {
     
     useEffect(() => {
 
+        /***************************************** Wait images ***************************************/
+
         const seccionToWaitImages = document.querySelector(".seccionToWaitImages");  //Espera que se carguen todas las imágenes en la pagina actual si esta tiene la clase "seccionToWaitImages"
         if (seccionToWaitImages) {                                                  // luego Deshabilita el spinner    
             const checkImages = async () => {
