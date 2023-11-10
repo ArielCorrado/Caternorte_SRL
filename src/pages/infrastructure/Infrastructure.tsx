@@ -15,13 +15,13 @@ function Infrastructure () {
                             <p>Moldeo</p>
                         </div>
                         <div className="infrastructureCardRowCont infrastructureCardRowContPcipal flex">
-                            <p>Moldeadora automatica modelo hunter hp20, moldes de 500x600mm</p>
+                            <p>Moldeadora automática modelo hunter hp20, moldes de 500x600mm</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>Moldeo semiautomatico en platos sacudidores</p>
+                            <p>Moldeo semiautomático en platos sacudidores</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>Moldeo en resina autofraguante marca gerosa</p>
+                            <p>Moldeo en resina autofraguante marca GEROSA</p>
                         </div>
                     </div>
 
@@ -31,7 +31,7 @@ function Infrastructure () {
                             <p>Preparación de Tierra</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>Molino Marca SIMPSON de alta velocida</p>
+                            <p>Molino Marca SIMPSON de alta velocidad</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
                             <p>Molino Marca CORN</p>
@@ -52,10 +52,10 @@ function Infrastructure () {
                             <p>Tolva de almacenamiento con capacidad efectiva instalada de 40 toneladas</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>2 granalladoras ACINTA modelo AC1200 con tambor de 700m</p>
+                            <p>2 Granalladoras ACINTA modelo AC1200 con tambor de 700m</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>2 amoladoras de pie</p>
+                            <p>2 Amoladoras de pie</p>
                         </div>
                     </div>
                     
@@ -69,19 +69,19 @@ function Infrastructure () {
                             <p>Fusión y Colado</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>Horno electrico marca INDUCTOTHERM 350kw con dos cubas con capacidad de 800kg y 350kg</p>
+                            <p>Horno eléctrico marca INDUCTOTHERM 350kw con dos cubas con capacidad de 800kg y 350kg</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>Horno electrico marca INDUCTOTHERM 250kw con dos cubas con capacidad de 500kg y 350kg</p>
+                            <p>Horno eléctrico marca INDUCTOTHERM 250kw con dos cubas con capacidad de 500kg y 350kg</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>Horno electrico marca PILLAR 250kw con dos cubas con capacidad de 500kg</p>
+                            <p>Horno eléctrico marca PILLAR 250kw con dos cubas con capacidad de 500kg</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
                             <p>2 Equipos CARBOMAX </p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>2 Pirometros de inmersion </p>
+                            <p>2 Pirómetros de inmersion </p>
                         </div>
                     </div>
                     
@@ -94,7 +94,7 @@ function Infrastructure () {
                             <p>3 Noyeras manuales</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>1 Noyera automatica en caliente marca LOSINO</p>
+                            <p>1 Noyera automática en caliente marca LOSINO</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
                             <p>2 Noyeras de SHELL-MOULDING DOBLE FIGURA</p>
