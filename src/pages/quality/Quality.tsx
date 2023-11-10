@@ -1,6 +1,6 @@
 import "./quality.css";
 
-function Quality() {
+function Quality () {
   
     const showDescription = (e: React.BaseSyntheticEvent) => {
         e.target.lastChild.classList.remove("hiddenCardQualityDescription");
@@ -13,7 +13,7 @@ function Quality() {
     }
 
     return (
-        <div className="seccions qualitySeccion flex column">
+        <div className="seccions qualitySeccion seccionToWaitImages flex column">
 
             <img src="/images/backgrounds/quality.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
             <div className="qualityBgFilter"></div>

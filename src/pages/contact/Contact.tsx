@@ -10,7 +10,7 @@ function Contact() {
     }
 
     return (
-        <div className="seccions contactSeccion">
+        <div className="seccions contactSeccion seccionToWaitImages">
 
             <img src="/images/backgrounds/contact.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
             <div className="qualityBgFilter"></div>

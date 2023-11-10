@@ -184,4 +184,9 @@
     }
 }
 
+@media only screen and (orientation: portrait) {
 
+    .opcion2 {
+        font-size: 14px;
+    }
+}

@@ -7,6 +7,7 @@ import Contact from './pages/contact/Contact';
 import Quality from './pages/quality/Quality';
 import Infrastructure from './pages/infrastructure/Infrastructure';
 import { Navigate } from 'react-router-dom';
+import "./styles/animations.css";
 
 function App() {
 

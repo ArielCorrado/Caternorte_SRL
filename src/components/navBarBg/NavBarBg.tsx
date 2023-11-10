@@ -1,13 +1,29 @@
 import "./navBarBg.css";
 import NavBar from "../navBar/NavBar";
-import { useEffect } from 'react'; 
+import { useEffect, useContext } from 'react'; 
 import { useLocation } from "react-router-dom";
+import { SpinnerContext } from "../../context/spinnerContext";
+import waitAllImagesCharged from "../../utils/waitAllImagesCharged";
 
 function NavBarBg() {
 
+    const {showSpinner} = useContext(SpinnerContext)
     const thisLocation = useLocation();
     
     useEffect(() => {
+
+        const seccionToWaitImages = document.querySelector(".seccionToWaitImages");  //Espera que se carguen todas las imágenes en la pagina actual si esta tiene la clase "seccionToWaitImages"
+        if (seccionToWaitImages) {                                                  // luego Deshabilita el spinner    
+            const checkImages = async () => {
+               showSpinner(true);
+               await waitAllImagesCharged();
+               showSpinner(false);
+               seccionToWaitImages.classList.add("opacityOnCharge");
+            }
+            checkImages();
+        }        
+
+        /***************************************** OoS ***************************************/
 
         const footer : HTMLElement | null = document.querySelector(".footerCont2");       //Removemos OoSS para que se vuelva a hacer el efecto de "opacity on scroll" al cambiar de página
         footer?.classList.remove("OoSS");
@@ -38,6 +54,7 @@ function NavBarBg() {
         window.addEventListener("scroll", handleTempo);
         handleTempo();
 
+        // eslint-disable-next-line
     }, [thisLocation]);    
 
     return (
