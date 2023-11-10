@@ -3,9 +3,12 @@ import "./infrastructure.css";
 function Infrastructure () {
   
     return (
-        <div className="seccions seccionToWaitImages flex">
+        <div className="seccions seccionToWaitImages flex column">
             <img src="/images/backgrounds/infrastructure2b.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
             <div className="qualityBgFilter"></div>
+
+            <p className="qualityIntro1 infrastructureIntro1">En Caternorte, la excelencia en la fundición es impulsada por el compromiso con la calidad.</p>
+            <p className="qualityIntro2 infrastructureIntro2">En nuestra planta contamos con el siguiente equipamiento industrial y herramientas que le dan vida a nuestros procesos:</p>
 
             <div className="infrastructureCardsCont flex wrap">
                 <div className="infrastructureCardsColumnCont flex column">
@@ -15,7 +18,7 @@ function Infrastructure () {
                             <p>Moldeo</p>
                         </div>
                         <div className="infrastructureCardRowCont infrastructureCardRowContPcipal flex">
-                            <p>Moldeadora automática modelo hunter hp20, moldes de 500x600mm</p>
+                            <p>Moldeadora automática modelo HUNTER HP20 con capacidad para moldes de 500 x 600mm</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
                             <p>Moldeo semiautomático en platos sacudidores</p>
@@ -52,7 +55,7 @@ function Infrastructure () {
                             <p>Tolva de almacenamiento con capacidad efectiva instalada de 40 toneladas</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>2 Granalladoras ACINTA modelo AC1200 con tambor de 700m</p>
+                            <p>2 granalladoras a cinta modelo AC1200 con tambor de 700m</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
                             <p>2 Amoladoras de pie</p>
@@ -97,10 +100,10 @@ function Infrastructure () {
                             <p>1 Noyera automática en caliente marca LOSINO</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>2 Noyeras de SHELL-MOULDING DOBLE FIGURA</p>
+                            <p>2 Noyeras de SHELL-MOULDING doble figura</p>
                         </div>
                         <div className="infrastructureCardRowCont flex">
-                            <p>1 Horno de cocinado de noyos</p>
+                            <p>1 Horno de curado de noyos</p>
                         </div>
                     </div>
 

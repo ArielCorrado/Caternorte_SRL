@@ -66,7 +66,7 @@ function Quality () {
                             <p className="qualityCardTitle">Compactador</p>
                         </div>
                         <div className="qualityCardDescCont flex">
-                            <p className="qualityCardDesc">Compactador.</p>
+                            <p className="qualityCardDesc">Compactador</p>
                         </div>
                     </div>
                     <div className="qualityCardCont OoS" onMouseOver={(e) => showDescription(e)} onMouseLeave={(e) => hiddenDescription(e)}>
@@ -126,7 +126,7 @@ function Quality () {
                             <p className="qualityCardTitle">Tolva de carga</p>
                         </div>
                         <div className="qualityCardDescCont flex">
-                            <p className="qualityCardDesc">Tolva de carga.</p>
+                            <p className="qualityCardDesc">Tolva de carga</p>
                         </div>
                     </div>
                 </div>

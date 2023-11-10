@@ -4,6 +4,15 @@
     align-items: flex-start;
 }
 
+.infrastructureIntro1, .infrastructureIntro2 {
+    width: 50rem;
+    max-width: 100%;
+}
+
+.infrastructureIntro2 {
+    margin-bottom: 2rem;
+}
+
 .infrastructureCardsColumnCont {
     width: 35rem;
     justify-content: flex-start;

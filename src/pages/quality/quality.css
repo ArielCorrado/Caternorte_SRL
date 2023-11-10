@@ -18,14 +18,14 @@
 }
 
 .qualityBg {
-    z-index: 0;
+    z-index: -2;
 }
 
 .qualityBgFilter {
     background-color: var(--color-web-2);
     filter: brightness(50%);
     opacity: 0.85;
-    z-index: 1;
+    z-index: -1;
 }
 
 .qualityIntroCont {
