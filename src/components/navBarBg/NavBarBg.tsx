@@ -17,8 +17,8 @@ function NavBarBg() {
             const checkImages = async () => {
                 const componentsToWaitImages = document.querySelectorAll(".componentToWaitImages");
                 for (const component of componentsToWaitImages) {
-                    component.classList.remove("opacityOnCharge");
-                }
+                    component.classList.remove("opacityOnCharge");          //Por si queremos incluir el navbar o el footer en el "opacityOnCharge" ya que estos componentes no se refrescan al
+                }                                                           // cambiar de pagina y siguen con el primer "opacityOnCharge" que se les asignó por codigo
                 showSpinner(true);
                 await waitAllImagesCharged();
                 showSpinner(false);
