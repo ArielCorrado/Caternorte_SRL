@@ -15,10 +15,11 @@ function NavBarBg() {
         /***************************************** Wait images ***************************************/
                                                          
             const checkImages = async () => {
+                document.body.classList.remove("opacityOnCharge");
                 showSpinner(true);
                 await waitAllImagesCharged();
                 showSpinner(false);
-                document.body.classList.add("opacityOnCharge")
+                document.body.classList.add("opacityOnCharge");
             }
             checkImages();
                 
