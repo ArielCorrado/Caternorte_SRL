@@ -29,7 +29,7 @@ function Home() {
     }
     
     return (
-        <div className='homeSeccion seccionToWaitImages flex column'>
+        <div className='homeSeccion flex column'>
             <Slider/>
             <div className='homeProductCardsCont flex wrap'>
                 <HomeProductCard imgSrc={homeCard1Info.imgSrc} iconSrc={homeCard1Info.iconSrc} title={homeCard1Info.title} description={homeCard1Info.description} descriptionTitle={homeCard1Info.descriptionTitle} textButton='Productos'/>

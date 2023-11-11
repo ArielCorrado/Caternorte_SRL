@@ -13,18 +13,15 @@ function NavBarBg() {
     useEffect(() => {
 
         /***************************************** Wait images ***************************************/
-
-        const seccionToWaitImages = document.querySelector(".seccionToWaitImages");  //Espera que se carguen todas las imágenes en la pagina actual si esta tiene la clase "seccionToWaitImages"
-        if (seccionToWaitImages) {                                                  // luego Deshabilita el spinner    
+                                                         
             const checkImages = async () => {
-               showSpinner(true);
-               await waitAllImagesCharged();
-               showSpinner(false);
-               seccionToWaitImages.classList.add("opacityOnCharge");
+                showSpinner(true);
+                await waitAllImagesCharged();
+                showSpinner(false);
+                document.body.classList.add("opacityOnCharge")
             }
             checkImages();
-        }        
-
+                
         /***************************************** OoS ***************************************/
 
         const footer : HTMLElement | null = document.querySelector(".footerCont2");       //Removemos OoSS para que se vuelva a hacer el efecto de "opacity on scroll" al cambiar de página
