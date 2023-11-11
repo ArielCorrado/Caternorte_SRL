@@ -1,3 +1,7 @@
+.componentToWaitImages {
+    opacity: 0;
+}
+
 .opacityOnCharge {
     animation-name: opacityOnCharge;
     animation-duration: 0.75s;

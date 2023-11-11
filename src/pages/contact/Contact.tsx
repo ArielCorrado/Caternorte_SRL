@@ -10,7 +10,7 @@ function Contact() {
     }
 
     return (
-        <div className="seccions contactSeccion flex">
+        <div className="seccions contactSeccion componentToWaitImages flex">
 
             <img src="/images/backgrounds/contactb.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
             <div className="qualityBgFilter"></div>

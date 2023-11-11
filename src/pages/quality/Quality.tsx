@@ -13,7 +13,7 @@ function Quality () {
     }
 
     return (
-        <div className="seccions qualitySeccion flex column">
+        <div className="seccions qualitySeccion componentToWaitImages flex column">
 
             <img src="/images/backgrounds/qualityb.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
             <div className="qualityBgFilter"></div>

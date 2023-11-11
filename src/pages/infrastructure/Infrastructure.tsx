@@ -3,7 +3,7 @@ import "./infrastructure.css";
 function Infrastructure () {
   
     return (
-        <div className="seccions flex column">
+        <div className="seccions componentToWaitImages flex column">
             <img src="/images/backgrounds/infrastructure2b.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
             <div className="qualityBgFilter"></div>
 

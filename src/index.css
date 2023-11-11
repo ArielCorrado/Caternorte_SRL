@@ -64,7 +64,6 @@
 body {
     position: relative;
     background-color: var(--color-web-2);
-    opacity: 0;
 }
 
 a {
