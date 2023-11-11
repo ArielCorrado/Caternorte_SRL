@@ -1,32 +1,36 @@
 const waitAllImagesCharged = () : Promise <boolean> => {
     return new Promise((resolve) => {
         const images = document.querySelectorAll("img");
-                
-        const checkIfAllImagesCharged = () => {
-            const imagesStatus : boolean[] = [];
-            images.forEach((image) => {
-                image.complete? imagesStatus.push(true) : imagesStatus.push(false);     //Generamos un array de booleanos false: la imagen no se cargó, true: la imagen se cargó
-                image.addEventListener("error", () => {                                 //Si alguna imagen no se puede cargar permitimos la visualizacion de todas pero sin chequear
-                    resolve(true);                                                      // si estan todas cargadas completamente por no haber un metodo para verificar error en un momento        
-                })                                                                      // dado
-            })
-            if (imagesStatus.every((imageStatus) => imageStatus)) {                     //Si todo el array tiene true es porque ya se cargaron todas las imagenes
-                resolve(true);                                                          //El resove(true) es para devolver algo, sino no deja compilar    
-            } 
-        }
+        const allImagesCount = images.length;
+        let imagesCount = 0;
+                                            console.log(allImagesCount)                                 
+        images.forEach((image) => {
+            
+            // const print = (message: string) => {
+            //     if(image.src.includes("qualityb")) console.log(image.src, Date.now(), message)
+            //     if(!image.src.includes("qualityb")) console.log(Date.now(), message)
+            // }
 
-        const waitImagesToCharge = () => {                                              //Cada vez que una imagen se termina de cargar verificaos si se cargaron todas
-            images.forEach((image) => {
-                image.addEventListener("load", () => {
-                    checkIfAllImagesCharged();
-                })
+            console.log(typeof image.naturalHeight)
+            
+            if (image.complete) {                                                   //Al llegar esta linea ya puede haver imagenes cargadas que no activaran
+                // print("complete");
+                imagesCount ++;                                                     // el evento "load" o "error"
+                if (imagesCount >= allImagesCount) resolve(true);
+                return;
+            }
+            image.addEventListener("load", () => {                                  //Evento "load": La imagen pasó de cargando a correctamente cargada
+                // print("load");
+                imagesCount ++;
+                if (imagesCount >= allImagesCount) resolve(true);
             })
-        }
-
-        checkIfAllImagesCharged();
-        waitImagesToCharge();
-        checkIfAllImagesCharged();                                                      //Ponemos esta linea a lo ultimo por si se completaron todas la imagenes 
-    })                                                                                  // despues de "checkIfAllImagesCharged" y antes de empezar a cargar eventos "load"
+            image.addEventListener("error", () => {                                 //Evento "error": La imagen paso de cargando a error (no se pudo cargar)
+                // print("error");
+                imagesCount ++;
+                if (imagesCount >= allImagesCount) resolve(true);
+            })
+        })                                                      
+    })                                                                                  
 }                                                                                       
 
 
