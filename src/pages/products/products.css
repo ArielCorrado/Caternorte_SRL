@@ -1,0 +1,14 @@
+.productsBgFilter {
+    filter: brightness(0%) contrast(95%);
+    opacity: 0.85;
+}
+
+.homeProductCardImg {
+    transition-duration: 0.75s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+
+.productsCardImgHover:hover .homeProductCardImg {
+    transform: scale(110%);
+}

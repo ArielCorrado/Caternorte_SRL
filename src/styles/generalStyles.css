@@ -60,6 +60,7 @@
     text-transform: uppercase;
     font-weight: 500;
     cursor: pointer;
+    min-width: 14rem;
 }
 
 

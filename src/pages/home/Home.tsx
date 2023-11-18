@@ -32,8 +32,8 @@ function Home() {
         <div className='homeSeccion componentToWaitImages flex column'>
             <Slider/>
             <div className='homeProductCardsCont flex wrap'>
-                <HomeProductCard imgSrc={homeCard1Info.imgSrc} iconSrc={homeCard1Info.iconSrc} title={homeCard1Info.title} description={homeCard1Info.description} descriptionTitle={homeCard1Info.descriptionTitle} textButton='Productos'/>
-                <HomeProductCard imgSrc={homeCard2Info.imgSrc} iconSrc={homeCard2Info.iconSrc} title={homeCard2Info.title} description={homeCard2Info.description} descriptionTitle={homeCard2Info.descriptionTitle} textButton='Productos'/>
+                <HomeProductCard imgSrc={homeCard1Info.imgSrc} iconSrc={homeCard1Info.iconSrc} title={homeCard1Info.title} description={homeCard1Info.description} descriptionTitle={homeCard1Info.descriptionTitle} textButton='Poleas'/>
+                <HomeProductCard imgSrc={homeCard2Info.imgSrc} iconSrc={homeCard2Info.iconSrc} title={homeCard2Info.title} description={homeCard2Info.description} descriptionTitle={homeCard2Info.descriptionTitle} textButton='Conos'/>
                 <HomeProductCard imgSrc={homeCard3Info.imgSrc} iconSrc={homeCard3Info.iconSrc} title={homeCard3Info.title} description={homeCard3Info.description} descriptionTitle={homeCard3Info.descriptionTitle} textButton='Fundición'/>
             </div>
         </div>

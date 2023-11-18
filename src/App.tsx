@@ -10,6 +10,7 @@ import { Navigate } from 'react-router-dom';
 import "./styles/animations.css";
 import { SpinnerContext } from './context/spinnerContext';
 import { useContext } from 'react';
+import Products from './pages/products/Products';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/" element={<Home/>}/>    
                 <Route path="/quality" element={<Quality/>}/>       
                 <Route path="/contact" element={<Contact/>}/>  
+                <Route path="/products" element={<Products/>}/>  
                 <Route path="/infrastructure" element={<Infrastructure/>}/>     
                 <Route path="*" element={<Navigate to="/"/>}/>     
             </Routes>
