@@ -1,4 +1,14 @@
 .productsProductCardCont {
+    height: 20rem;
+    width: 20rem;
     border: 1px solid rgb(56, 56, 56);
 }
 
+@media only screen and (orientation: portrait) {
+
+    .productsProductCardCont {
+        height: 25rem;
+        width: 25rem;
+        border: 1px solid rgb(56, 56, 56);
+    }
+}
