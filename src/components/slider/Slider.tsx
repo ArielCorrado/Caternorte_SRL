@@ -20,7 +20,7 @@ function Slider() {
                     Desde componentes industriales hasta obras de arte fundidas, transformamos metal en soluciones que cumplen con los estándares más exigentes.
                     Descubre la magia de la fundición con nosotros.
                 </p>
-                <Button1 buttonText="Productos" className="button1"/>
+                <Button1 buttonText="Productos" className="button1" link="/products"/>
             </div>
         </div>
     )

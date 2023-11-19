@@ -9,9 +9,10 @@ type PropsHomeProductCard = {
     description: string,
     descriptionTitle: string  
     textButton: string  
+    link: string
 }
 
-function HomeProductCard ({imgSrc, iconSrc, title, description, descriptionTitle, textButton}: PropsHomeProductCard) {
+function HomeProductCard ({imgSrc, iconSrc, title, description, descriptionTitle, textButton, link}: PropsHomeProductCard) {
 
     const cardRef =  useRef <HTMLDivElement | null> (null);
     
@@ -54,7 +55,7 @@ function HomeProductCard ({imgSrc, iconSrc, title, description, descriptionTitle
             <div className="homeProductCardDescCont homeProductCardDescContAnimation flex column">
                 <p className="homeProductCardDescTitle">{descriptionTitle}:</p>
                 <p className="homeProductCardDesc">{description}</p>
-                <Button1 buttonText={textButton} className="button1"/>
+                <Button1 buttonText={textButton} link={link} className="button1"/>
             </div>
         </div>
     )
