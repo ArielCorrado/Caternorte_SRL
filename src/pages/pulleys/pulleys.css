@@ -11,10 +11,13 @@
     font-size: 3rem;
     transform: translateY(0.5rem);
     margin-right: 0.5rem;
+    line-height: 0;
 }
 
 .productsIntro1 {
    font-size: 1.30rem;
+   line-height: 1.5;
+   margin-top: 1rem;
 }
 
 .pulleysBgFilter {

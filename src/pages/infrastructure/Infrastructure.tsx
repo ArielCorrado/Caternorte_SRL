@@ -61,11 +61,9 @@ function Infrastructure () {
                             <p>2 Amoladoras de pie</p>
                         </div>
                     </div>
-                    
                 </div>
 
                 <div className="infrastructureCardsColumnCont flex column">
-                   
                     <div className="infrastructureCardCont OoS">
                         <div className="infrastructureCardRowTitleCont infrastructureCardRowTitleContDark orange flex">
                             <img src="/images/icons/colado.png" alt="Caternorte moldeo" className="infrastructureCardRowTitleImg"/>
@@ -106,7 +104,6 @@ function Infrastructure () {
                             <p>1 Horno de curado de noyos</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>    

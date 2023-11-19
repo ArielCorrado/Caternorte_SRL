@@ -12,3 +12,7 @@
 .productsCardImgHover:hover .homeProductCardImg {
     transform: scale(110%);
 }
+
+.productsIntro2 {
+    margin-bottom: 2rem;
+}

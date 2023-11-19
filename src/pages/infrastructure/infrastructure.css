@@ -91,5 +91,14 @@
     .infrastructureCardRowCont {
         padding: 1rem;
     }
+
+    .infrastructureCardsColumnCont {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    .infrastructureCardCont {
+        width: 100%;
+    }
 }
 

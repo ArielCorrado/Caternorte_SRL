@@ -12,7 +12,7 @@ function Pulleys () {
                 <p className="pulleysIntro0">
                     Poleas
                 </p>
-                <p className="productsIntro1"><span className="pulleysTriangle">&#8227;</span>Fabricamos poleas estandar secciones "A" "B" "C" desde 50mm hasta 500mm.</p>
+                <p className="productsIntro1"><span className="pulleysTriangle">&#8227;</span>Fabricamos poleas estándar secciones "A" "B" "C" desde 50mm hasta 500mm.</p>
                 <p className="productsIntro1"><span className="pulleysTriangle">&#8227;</span>También fabricamos poleas especiales de todas las secciones desde 50mm hasta 1300mm.</p>
             </div>
 

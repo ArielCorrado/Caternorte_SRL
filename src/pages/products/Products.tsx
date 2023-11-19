@@ -23,14 +23,25 @@ function Products() {
     
     return (
         
-        <div className="seccions componentToWaitImages flex wrap">
+        <div className="seccions componentToWaitImages flex column">
 
             <img src="/images/backgrounds/products.jpg" alt="Caternorte products background" className="qualityBg OoS"/>
             <div className="qualityBgFilter productsBgFilter"></div>
 
-            <ProductCard imgSrc={homeCard1Info.imgSrc} iconSrc={homeCard1Info.iconSrc} title={homeCard1Info.title} link={"/products/pulleys"}/>
-            <ProductCard imgSrc={homeCard2Info.imgSrc} iconSrc={homeCard2Info.iconSrc} title={homeCard2Info.title} link={"/products/cones"}/>
-            <ProductCard imgSrc={homeCard3Info.imgSrc} iconSrc={homeCard3Info.iconSrc} title={homeCard3Info.title} link={"/products/foundry"}/>
+            <div className="qualityIntroCont flex column OoS">
+                <p className="qualityIntro1">
+                    Desde modelos estándar hasta soluciones a medida, nuestro catálogo abarca una amplia gama de tamaños y materiales. 
+                </p>
+                <p className="qualityIntro2 productsIntro2">
+                    Nuestro compromiso con la calidad se refleja en cada pieza, respaldado por años de experiencia en la industria de la fundición. 
+                </p>
+            </div>
+
+            <div className="flex wrap">
+                <ProductCard imgSrc={homeCard1Info.imgSrc} iconSrc={homeCard1Info.iconSrc} title={homeCard1Info.title} link={"/products/pulleys"}/>
+                <ProductCard imgSrc={homeCard2Info.imgSrc} iconSrc={homeCard2Info.iconSrc} title={homeCard2Info.title} link={"/products/cones"}/>
+                <ProductCard imgSrc={homeCard3Info.imgSrc} iconSrc={homeCard3Info.iconSrc} title={homeCard3Info.title} link={"/products/foundry"}/>
+            </div>
         </div>
     )
 }
