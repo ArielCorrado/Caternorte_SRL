@@ -94,7 +94,6 @@
     padding-bottom: 2rem;
     margin: var(--qualityCardContMargin);
     margin-bottom: 5rem;
-    cursor: pointer;
 }
 
 .qualityCardImg {
