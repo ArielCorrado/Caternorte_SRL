@@ -23,7 +23,7 @@ function Products() {
     
     return (
         
-        <div className="seccions flex wrap">
+        <div className="seccions componentToWaitImages flex wrap">
 
             <img src="/images/backgrounds/products.jpg" alt="Caternorte products background" className="qualityBg OoS"/>
             <div className="qualityBgFilter productsBgFilter"></div>
