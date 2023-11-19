@@ -21,7 +21,6 @@ function Quality () {
             <div className="qualityIntroCont flex column OoS">
                 <p className="qualityIntro1">
                     Nuestros metales son producidos bajo las normas internacionales que nos exigen nuestros clientes, como por ejemplo ASTM A48-41, ASTM A536, norma SAE J431 y otras.
-                    
                 </p>
                 <p className="qualityIntro2">
                     Para ello, y para producir materiales de calidad, contamos con un laboratorio que posee los equipos necesarios a tal fin. A saber:

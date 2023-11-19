@@ -28,9 +28,9 @@ function Products() {
             <img src="/images/backgrounds/products.jpg" alt="Caternorte products background" className="qualityBg OoS"/>
             <div className="qualityBgFilter productsBgFilter"></div>
 
-            <ProductCard imgSrc={homeCard1Info.imgSrc} iconSrc={homeCard1Info.iconSrc} title={homeCard1Info.title}/>
-            <ProductCard imgSrc={homeCard2Info.imgSrc} iconSrc={homeCard2Info.iconSrc} title={homeCard2Info.title}/>
-            <ProductCard imgSrc={homeCard3Info.imgSrc} iconSrc={homeCard3Info.iconSrc} title={homeCard3Info.title}/>
+            <ProductCard imgSrc={homeCard1Info.imgSrc} iconSrc={homeCard1Info.iconSrc} title={homeCard1Info.title} link={"/products/pulleys"}/>
+            <ProductCard imgSrc={homeCard2Info.imgSrc} iconSrc={homeCard2Info.iconSrc} title={homeCard2Info.title} link={"/products/cones"}/>
+            <ProductCard imgSrc={homeCard3Info.imgSrc} iconSrc={homeCard3Info.iconSrc} title={homeCard3Info.title} link={"/products/foundry"}/>
         </div>
     )
 }

@@ -11,6 +11,7 @@ import "./styles/animations.css";
 import { SpinnerContext } from './context/spinnerContext';
 import { useContext } from 'react';
 import Products from './pages/products/Products';
+import Pulleys from './pages/pulleys/Pulleys';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/quality" element={<Quality/>}/>       
                 <Route path="/contact" element={<Contact/>}/>  
                 <Route path="/products" element={<Products/>}/>  
+                <Route path="/products/pulleys" element={<Pulleys/>}/> 
                 <Route path="/infrastructure" element={<Infrastructure/>}/>     
                 <Route path="*" element={<Navigate to="/"/>}/>     
             </Routes>
