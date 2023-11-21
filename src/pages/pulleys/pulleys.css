@@ -23,3 +23,7 @@
 .pulleysBgFilter {
     filter: brightness(0) contrast(90%);
 }
+
+.pulleysCardCont {
+    border-radius: 0.5rem;
+}

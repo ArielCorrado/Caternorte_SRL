@@ -12,7 +12,7 @@ function Pulleys () {
                 <p className="pulleysIntro0">
                     Poleas
                 </p>
-                <p className="productsIntro1"><span className="pulleysTriangle">&#8227;</span>Fabricamos poleas estándar secciones "A" "B" "C" desde 50mm hasta 500mm.</p>
+                <p className="productsIntro1"><span className="pulleysTriangle">&#8227;</span>Fabricamos poleas estándar secciones "A" "B" "C" desde 50mm hasta 800mm.</p>
                 <p className="productsIntro1"><span className="pulleysTriangle">&#8227;</span>También fabricamos poleas especiales de todas las secciones desde 50mm hasta 1300mm.</p>
             </div>
 
@@ -21,28 +21,34 @@ function Pulleys () {
                     <p className="qualityTypes qualityTypesIzq OoS flex">
                         Poleas estandar
                     </p>
-                    <div className="qualityCardCont OoS">
+                    <div className="qualityCardCont pulleysCardCont OoS">
                         <img src="/images/products/pulleys/2.jpg" alt="Polea" className="qualityCardImg" />
                     </div>
-                    <div className="qualityCardCont OoS">
+                    <div className="qualityCardCont pulleysCardCont OoS">
                         <img src="/images/products/pulleys/6.jpg" alt="Polea" className="qualityCardImg" />
                     </div>
-                    <div className="qualityCardCont OoS">
+                    <div className="qualityCardCont pulleysCardCont OoS">
                         <img src="/images/products/pulleys/7.jpg" alt="Polea" className="qualityCardImg" />
+                    </div>
+                    <div className="qualityCardCont pulleysCardCont OoS">
+                        <img src="/images/products/pulleys/8.jpg" alt="Polea" className="qualityCardImg" />
                     </div>
                 </div>
                 <div className="qualityCardsDerCont flex wrap">
                     <p className="qualityTypes qualityTypesDer OoS flex">
                         Poleas especiales
                     </p>
-                    <div className="qualityCardCont OoS">
+                    <div className="qualityCardCont pulleysCardCont OoS">
                         <img src="/images/products/pulleys/3.jpg" alt="Polea" className="qualityCardImg" />
                     </div>
-                    <div className="qualityCardCont OoS">
+                    <div className="qualityCardCont pulleysCardCont OoS">
                         <img src="/images/products/pulleys/4.jpg" alt="Polea" className="qualityCardImg" />
                     </div>
-                    <div className="qualityCardCont OoS">
+                    <div className="qualityCardCont pulleysCardCont OoS">
                         <img src="/images/products/pulleys/5.jpg" alt="Polea" className="qualityCardImg" />
+                    </div>
+                    <div className="qualityCardCont pulleysCardCont OoS">
+                        <img src="/images/products/pulleys/1b.jpg" alt="Polea" className="qualityCardImg" />
                     </div>
                 </div>
             </div>
