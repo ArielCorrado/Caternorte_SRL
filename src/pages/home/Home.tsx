@@ -13,7 +13,7 @@ function Home() {
     }
 
     const homeCard2Info = {
-        imgSrc: "/images/products/cones/1b.jpg",
+        imgSrc: "/images/products/cones/4.png",
         iconSrc: "/images/icons/cone.png",
         title: "Conos",
         description: "Este tipo de elemento de transmisión tiene la finalidad de facilitar el montaje y desmontaje de poleas. Su uso permite que un mismo elemento de transmisión de potencia pueda ser montado en distintos diámetros de eje, solo cambiando esta pieza.",
@@ -21,7 +21,7 @@ function Home() {
     }
 
     const homeCard3Info = {
-        imgSrc: "/images/products/foundry/1.jpg",
+        imgSrc: "/images/products/foundry/2.jpg",
         iconSrc: "/images/icons/foundry.png",
         title: "Fundición",
         description: "Fabricamos a la medida lo que el cliente desea a partir de un plano o modelo.",
