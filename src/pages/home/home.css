@@ -5,9 +5,19 @@
     background-color: black;
 }
 
-.homeProductCardsCont {
+.homeProductCardsAndTitleCont {
     min-height: calc(100vh - var(--alto-bg-navbar));
     width: 100%;
     background-color: var(--bg-light-color-seccions);
     padding: var(--vertical-padding-seccions) var(--horizontal-padding-seccions);
+}
+
+.homeProductCardsCont {
+    width: 100%;
+}
+
+.homeProductsTitle {
+    color: var(--color-web-2);
+    font-weight: 600 !important;
+    opacity: 0.90;
 }

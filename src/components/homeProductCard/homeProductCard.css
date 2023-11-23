@@ -15,7 +15,6 @@
     padding-bottom: var(--icon--height);
     overflow: hidden;
     background-color: var(--color-web-4);
-    cursor: pointer;
 }
 
 .homeProductCardImg {
