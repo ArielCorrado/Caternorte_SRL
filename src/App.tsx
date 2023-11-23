@@ -12,6 +12,7 @@ import { SpinnerContext } from './context/spinnerContext';
 import { useContext } from 'react';
 import Products from './pages/products/Products';
 import Pulleys from './pages/pulleys/Pulleys';
+import Cones from './pages/cones/Cones';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
                 <Route path="/contact" element={<Contact/>}/>  
                 <Route path="/products" element={<Products/>}/>  
                 <Route path="/products/pulleys" element={<Pulleys/>}/> 
+                <Route path="/products/cones" element={<Cones/>}/> 
                 <Route path="/infrastructure" element={<Infrastructure/>}/>     
                 <Route path="*" element={<Navigate to="/"/>}/>     
             </Routes>

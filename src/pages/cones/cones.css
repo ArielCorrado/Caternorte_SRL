@@ -1,0 +1,14 @@
+.conesIntro1Text {
+    font-size: 1.30rem;
+    line-height: 1.5;
+}
+
+.conesIntro1Link {
+    color: #ff6c28;
+    font-weight: 400;
+    
+}
+
+.conesIntro1Link:hover {
+    color: #ff9f72;
+}
