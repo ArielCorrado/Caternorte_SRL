@@ -11,6 +11,10 @@
     border-bottom: 1px solid rgb(231, 231, 231);
 }
 
+.navBarBgLogoImgCont {
+    height: 100%;
+}
+
 .navBarBgLogoImg {
     position: absolute;
     height: 70%;

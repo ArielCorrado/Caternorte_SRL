@@ -4,6 +4,7 @@ import { useEffect, useContext } from 'react';
 import { useLocation } from "react-router-dom";
 import { SpinnerContext } from "../../context/spinnerContext";
 import waitAllImagesCharged from "../../utils/waitAllImagesCharged";
+import { Link } from "react-router-dom";
 
 function NavBarBg() {
 
@@ -64,7 +65,7 @@ function NavBarBg() {
 
     return (
         <div className="navBarBgCont flex">
-            <img src="/images/logos/logom.png" alt="Caternorte Logo" className="navBarBgLogoImg"/>
+            <Link to="/" className="navBarBgLogoImgCont"><img src="/images/logos/logom.png" alt="Caternorte Logo" className="navBarBgLogoImg"/></Link>
             <NavBar/>
             <div className="navBarBgContactCont flex">
                 <div className="navBarBgContactWs flex">
