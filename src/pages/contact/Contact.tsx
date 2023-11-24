@@ -1,12 +1,58 @@
-import { useRef } from "react";
+import { useRef, useContext } from "react";
 import "./contact.css";
+import { SpinnerContext } from "../../context/spinnerContext";
+import { swalPopUp } from "../../utils/swal";
+
+type formValues = {
+    nombre: string;
+    telefono: string;
+    email: string;
+    empresa: string;
+    mensaje: string;
+}
 
 function Contact() {
 
+    const {showSpinner} = useContext(SpinnerContext)
     const formRef = useRef <HTMLFormElement | null> (null);
 
-    const sendForm = () => {
+    const sendForm = async () => {
+        
+        const formData = new FormData(formRef.current as HTMLFormElement);
+        const data = Object.fromEntries(formData) as formValues;
 
+        if (data.nombre.trim() !== "" && data.telefono.trim() !== "" && data.email.trim() !== "" && data.empresa.trim() !== "" && data.mensaje.trim() !== "") {
+        
+            try {
+                showSpinner(true);
+                const respJSON = await fetch ("/sendForm.php", {
+                    method: "POST",
+                    body: JSON.stringify(data),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+
+                const respOBJ = await respJSON.json();
+                showSpinner(false);
+                if (respOBJ.msg.includes("Error")) {
+                    swalPopUp("Ops!", `${respOBJ.msg}, Intente otra vez`, "error");
+                } else {
+                    const inputs: NodeListOf<HTMLInputElement> = document.querySelectorAll(".inputsForm");
+                    inputs.forEach((input) => input.value = "");
+                    // contactAds();           //Llamada a funcion de conversion de google ads
+                    swalPopUp("Enviado!", "Mensaje Enviado con Exito, Gracias por Contactarnos!", "success");
+                } 
+                
+            } catch (err: unknown) {
+                showSpinner(false); 
+                swalPopUp("Ops!", err instanceof Error ? `Error al enviar el mensaje: ${err.message}` : `Error al enviar el mensaje: problema desconocido`, "error");
+            }
+
+        } else {
+            swalPopUp("Ops!", "Falta Ingresar Algún Dato", "warning");       
+        }
+        
     }
 
     return (

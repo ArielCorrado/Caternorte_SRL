@@ -69,3 +69,9 @@
     transform: scale(140%);
     margin-left: 1rem;
 }
+
+/***************** Sweetalert2 *******************/
+
+.swal2-icon-content {
+    color: #ff5e15;
+}
