@@ -52,7 +52,7 @@ const NavBar = () => {
         const calcularREM = () => {
             if (window.innerWidth >= window.innerHeight) REM = 0.01 * window.innerHeight + 10;
             if (window.innerWidth < window.innerHeight) REM = 0.01 * window.innerWidth + 10;
-            breakPoint = 55 * REM;
+            breakPoint = 65 * REM;
         }
          
         calcularREM();

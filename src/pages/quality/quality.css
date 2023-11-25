@@ -10,7 +10,7 @@
     position: fixed;
     top: var(--alto-bg-navbar);
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: calc(100vh - var(--alto-bg-navbar));
     object-fit: cover;
     object-position: left;

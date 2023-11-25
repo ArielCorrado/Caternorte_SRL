@@ -4,7 +4,7 @@
     height: var(--alto-bg-navbar);
     left: 0;
     top: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 1000;
     justify-content: flex-end;
     align-items: flex-start;
@@ -29,7 +29,7 @@
 .navBarBgContactCont {
     display: flex;
     height: calc(var(--alto-bg-navbar) / 2);
-    margin-right: 2rem;
+    margin-right: 2.5rem;
 }
 
 .navBarBgContactCont p {

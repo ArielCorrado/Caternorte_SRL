@@ -36,6 +36,7 @@
     height: 100%;
     z-index: 260;
     justify-content: flex-start;
+    padding-right: 1rem;
 }
 
 .opcion {
