@@ -55,7 +55,7 @@ function HomeProductCard ({imgSrc, iconSrc, title, description, descriptionTitle
             <div className="homeProductCardDescCont homeProductCardDescContAnimation flex column">
                 <p className="homeProductCardDescTitle">{descriptionTitle}:</p>
                 <p className="homeProductCardDesc">{description}</p>
-                <Button1 buttonText={textButton} link={link} className="button1"/>
+                <Button1 buttonText={textButton} link={link} className="button2"/>
             </div>
         </div>
     )
