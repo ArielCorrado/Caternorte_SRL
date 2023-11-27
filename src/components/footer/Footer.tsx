@@ -14,11 +14,11 @@ function Footer() {
                         <img src="/images/icons/phone.png" alt="Caternorte Phones Icon" className="footerIcons" />
                         <p className="footerTextos">4769-3596 &nbsp; 4841-3952</p>
                     </div>
-                    <a className="footerDatosCont footerDatosContMail flex" href="mailto: info.carternorte@gmail.com">
+                    <a className="footerDatosCont footerDatosContMail flex" href="mailto:info@caternorte.com.ar">
                         <img src="/images/icons/email.png" alt="Caternorte Email Icon" className="footerIcons footerEmailIcon" />
-                        <p className="footerTextos">info.caternorte@gmail.com</p>
+                        <p className="footerTextos">info@caternorte.com.ar</p>
                     </a>
-                    <a className="footerDatosCont footerDatosContWs flex" href="https://wa.me/+5491134713398">
+                    <a className="footerDatosCont footerDatosContWs flex" href="https://wa.me/+5491134713398" target="_blank" rel="noreferrer">
                         <img src="/images/icons/ws.png" alt="Caternorte Whatsapp Icon" className="footerIcons" />
                         <p className="footerTextos">+54 911 3471-3398</p>
                     </a>

@@ -68,18 +68,18 @@ function NavBarBg() {
             <Link to="/" className="navBarBgLogoImgCont"><img src="/images/logos/logom.png" alt="Caternorte Logo" className="navBarBgLogoImg"/></Link>
             <NavBar/>
             <div className="navBarBgContactCont flex">
-                <div className="navBarBgContactWs flex">
+                <a className="navBarBgContactWs flex" href="https://wa.me/+5491134713398" target="_blank" rel="noreferrer">
                     <img src="/images/icons/ws.png" alt="" className="navBarBgContactImg"/>
                     <p>11 3471-3398</p>
-                </div>
+                </a>
                 <div className="navBarBgContactPhone flex">
                     <img src="/images/icons/phone.png" alt="" className="navBarBgContactImg"/>
                     <p>(011) 4769-0187</p>
                 </div>
-                <div className="navBarBgContactEmail flex">
+                <a className="navBarBgContactEmail flex" href="mailto:info@caternorte.com.ar">
                     <img src="/images/icons/email.png" alt="" className="navBarBgContactImg"/>
-                    <p>info.carternorte@gmail.com</p>                
-                </div>
+                    <p>info@caternorte.com.ar</p>                
+                </a>
                 <a className="navBarBgContactLocation flex" href="https://maps.app.goo.gl/esH5A9nVQK4FTpv3A" target="_blank" rel="noreferrer">
                     <img src="/images/icons/location.png" alt="" className="navBarBgContactImg"/>
                     <p>Ubicación</p>                

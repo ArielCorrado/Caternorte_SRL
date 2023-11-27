@@ -64,15 +64,15 @@ function Contact() {
             <div className='contFormContacto flex column OoS animateTitleCorto'>
                 <form action="" className='form OoS' ref={formRef}>
                     <div className='tel-contacto flex OoS'>
-                        <a href="https://wa.me/+5491140869822" target='_blank' rel="noreferrer" className='flex'>
+                        <a href="https://wa.me/+5491134713398" target='_blank' rel="noreferrer" className='flex'>
                             <img src="/images/icons/ws.png" alt="phone" className='imgContactoPhone' />
                             <h2>+54 911 3471-3398</h2>
                         </a>
                     </div>
                     <div className='email-contacto flex OoS'>
-                        <a href="mailto:info.carternorte@gmail.com" className='flex'>
+                        <a href="mailto:info@caternorte.com.ar" className='flex'>
                             <img src="/images/icons/email.png" alt="email" className='imgContactoEmail' />
-                            <h2>info.carternorte@gmail.com</h2>
+                            <h2>info@caternorte.com.ar</h2>
                         </a>
                     </div>
                     <div className='contTituloContacto flex'>
