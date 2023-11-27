@@ -25,7 +25,7 @@ function Contact() {
         
             try {
                 showSpinner(true);
-                const respJSON = await fetch ("/sendForm.php", {
+                const respJSON = await fetch ("/sendmail.php", {
                     method: "POST",
                     body: JSON.stringify(data),
                     headers: {
