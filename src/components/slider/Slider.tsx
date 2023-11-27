@@ -1,10 +1,12 @@
 import "./slider.css";
 import Button1 from "../buttons/Button1";
+import CarouselZoom from "../carouselZoom/CarouselZoom";
 
 function Slider() {
     return (
         <div className="slider1Cont flex OoS">
-            <img src="/images/slider/2.jpg" alt="Caternorte Slider" className="slider1Img"/>
+            <CarouselZoom/>
+            {/* <img src="/images/slider/2.jpg" alt="Caternorte Slider" className="slider1Img"/> */}
             <div className="slider1TextoCont flex column">
                 <p className="slider1Texto1">Fundicion de metales</p>
                 <p className="slider1Texto2">Hierro gris &#8227; Nodular &#8227; Acero  &#8227; Aluminio</p>
