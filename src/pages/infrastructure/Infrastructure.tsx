@@ -4,7 +4,7 @@ function Infrastructure () {
   
     return (
         <div className="seccions componentToWaitImages flex column">
-            <img src="/images/backgrounds/infrastructure2b.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
+            <img src="/images/backgrounds/infrastructure2b.webp" alt="Caternorte calidad background" className="qualityBg OoS"/>
             <div className="qualityBgFilter"></div>
 
             <p className="qualityIntro1 infrastructureIntro1">En Caternorte, la excelencia en la fundición es impulsada por el compromiso con la calidad.</p>

@@ -25,7 +25,7 @@ function Products() {
         
         <div className="seccions componentToWaitImages flex column">
 
-            <img src="/images/backgrounds/products.jpg" alt="Caternorte products background" className="qualityBg OoS"/>
+            <img src="/images/backgrounds/products.webp" alt="Caternorte products background" className="qualityBg OoS"/>
             <div className="qualityBgFilter productsBgFilter"></div>
 
             <div className="qualityIntroCont flex column OoS">

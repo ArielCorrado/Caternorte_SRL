@@ -5,7 +5,7 @@ function Cones () {
     return (
         <div className="seccions qualitySeccion componentToWaitImages flex column">
 
-            <img src="/images/backgrounds/pulleys2.jpg" alt="Caternorte calidad background" className="qualityBg OoS"/>
+            <img src="/images/backgrounds/pulleys2.webp" alt="Caternorte calidad background" className="qualityBg OoS"/>
             <div className="qualityBgFilter pulleysBgFilter"></div>
           
             <div className="qualityIntroCont flex column OoS">
