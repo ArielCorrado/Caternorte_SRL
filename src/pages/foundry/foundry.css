@@ -1,0 +1,14 @@
+.foundryCardsIzqCont {
+    border-right: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.foundryTypesIzq {
+    width: 100%;
+}
+
+.foundryCardCont {
+    max-width: calc(50% - var(--qualityCardContMargin));
+}
+

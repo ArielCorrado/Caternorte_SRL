@@ -112,12 +112,12 @@ const NavBar = () => {
                 <div className="tapaMenu"></div>
                 <div className="menu flex">
                     <img src="/images/logos/logom.png" alt="Caternorte Logo" className="navBarLogo"/>
-                    <HashLink className="opcion flex" to="/">Empresa</HashLink>
-                    <HashLink className="opcion flex" to="/infrastructure">Infraestructura</HashLink>
-                    <HashLink className="opcion flex" to="/products">Productos</HashLink>
-                    <HashLink className="opcion flex" to="/">Clientes</HashLink>
-                    <HashLink className="opcion flex" to="/quality">Calidad</HashLink>
-                    <HashLink className="opcion flex" to="/contact">Contacto</HashLink>
+                    <HashLink className="opcion flex" to="/"><p>Empresa</p></HashLink>
+                    <HashLink className="opcion flex" to="/infrastructure"><p>Infraestructura</p></HashLink>
+                    <HashLink className="opcion flex" to="/products"><p>Productos</p></HashLink>
+                    <HashLink className="opcion flex" to="/"><p>Clientes</p></HashLink>
+                    <HashLink className="opcion flex" to="/quality"><p>Calidad</p></HashLink>
+                    <HashLink className="opcion flex" to="/contact"><p>Contacto</p></HashLink>
                 </div>
                 <div className="sharp"></div>
             </div>

@@ -15,7 +15,7 @@ function Cones () {
                 <p className="productsIntro1">
                     <span className="pulleysTriangle">&#8227;</span> 
                     <span className="conesIntro1Text">Fabricamos conos QD. </span>
-                    <a href="/datasheets/tapperlock.jpeg" target="_blank" className="conesIntro1Text conesIntro1Link">Ver Catálogo</a>
+                    <a href="/datasheets/qd.jpg" target="_blank" className="conesIntro1Text conesIntro1Link">Ver Catálogo</a>
                 </p>
                 <p className="productsIntro1">
                     <span className="pulleysTriangle">&#8227;</span> 
