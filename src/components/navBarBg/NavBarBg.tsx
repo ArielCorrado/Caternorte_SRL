@@ -72,10 +72,10 @@ function NavBarBg() {
                     <img src="/images/icons/ws.png" alt="" className="navBarBgContactImg"/>
                     <p>11 3471-3398</p>
                 </a>
-                <div className="navBarBgContactPhone flex">
+                <a className="navBarBgContactPhone flex" href="tel:01147690187" target="_blank" rel="noreferrer">
                     <img src="/images/icons/phone.png" alt="" className="navBarBgContactImg"/>
                     <p>(011) 4769-0187</p>
-                </div>
+                </a>
                 <a className="navBarBgContactEmail flex" href="mailto:info@caternorte.com.ar">
                     <img src="/images/icons/email.png" alt="" className="navBarBgContactImg"/>
                     <p>info@caternorte.com.ar</p>                

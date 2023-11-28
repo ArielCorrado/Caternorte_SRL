@@ -3,17 +3,17 @@ import "./footer.css";
 function Footer() {
     return (
         <div className="footerCont flex">
-            <img src="/images/backgrounds/bg3.jpg" alt="Caternorte Footer Backgroubnd" className="footerBg"/>
+            <img src="/images/backgrounds/bg3.webp" alt="Caternorte Footer Backgroubnd" className="footerBg"/>
             <div className="footerCont2 OoS flex">
                 <div className="footerContIzq flex">
                     <img src="/images/logos/logom2.png" alt="Caternorte Logo" className="footerLogo"/>
                 </div>
                 
                 <div className="footerContDer">
-                    <div className="footerDatosCont footerDatosContPhone flex">
+                    <a className="footerDatosCont footerDatosContPhone flex" href="tel:01147693596">
                         <img src="/images/icons/phone.png" alt="Caternorte Phones Icon" className="footerIcons" />
                         <p className="footerTextos">4769-3596 &nbsp; 4841-3952</p>
-                    </div>
+                    </a>
                     <a className="footerDatosCont footerDatosContMail flex" href="mailto:info@caternorte.com.ar">
                         <img src="/images/icons/email.png" alt="Caternorte Email Icon" className="footerIcons footerEmailIcon" />
                         <p className="footerTextos">info@caternorte.com.ar</p>
