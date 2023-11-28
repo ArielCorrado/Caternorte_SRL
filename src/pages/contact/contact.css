@@ -194,4 +194,12 @@
                              "mensaje mensaje";
     }
 
+    .form input, .form textarea {
+        font-size: var(--font-size-normal-portrait);
+    }
+
+    .form input::placeholder, .form textarea::placeholder {
+        font-size: 13px;
+    }
+
 }    

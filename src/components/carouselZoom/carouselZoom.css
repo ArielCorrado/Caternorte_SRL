@@ -17,8 +17,8 @@
     transition-duration: 3s;
     transition-property: opacity;                             
     transition-timing-function: ease-out;
-    animation-duration: 9s;                             /*Tiempo de zoom de cada imagen (en el .jsx el setTimeout de la funcion carousel tiene que ser 1 segundo menos si el tiempo de cambio de opacidad es 1s)*/
-    animation-timing-function: linear;
+    animation-duration: 9s;                             /*Tiempo de zoom de cada imagen (en el .jsx el setTimeout de la funcion carousel tiene que ser: */
+    animation-timing-function: linear;                  /* animation-duration - transition-duration*/
     animation-fill-mode: forwards;
     filter: grayscale(25%) contrast(90%) brightness(50%);
 }
