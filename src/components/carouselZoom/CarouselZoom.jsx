@@ -33,7 +33,7 @@ const CarouselZoom = () => {
 
     return (
         <div className='contImgHome flex' ref={contImgHome} id="inicio">
-            <img src="/images/slider/2.webp" alt="" className='imgHome'/> 
+            <img src="/images/slider/2.webp" alt="" className='imgHome imgHome1'/> 
             <img src="/images/slider/3.webp" alt="" className='imgHome'/> 
             <img src="/images/slider/4.webp" alt="" className='imgHome'/> 
             <img src="/images/slider/5.webp" alt="" className='imgHome'/> 

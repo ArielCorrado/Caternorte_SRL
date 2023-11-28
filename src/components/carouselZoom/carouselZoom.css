@@ -23,6 +23,10 @@
     filter: grayscale(25%) contrast(90%) brightness(50%);
 }
 
+.imgHome1 {
+    filter: grayscale(0) saturate(125%) contrast(80%) brightness(50%);
+}
+
 .imgContrast {
     filter: contrast(85%);
 }
