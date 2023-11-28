@@ -50,6 +50,15 @@
     .img3CarouselHome {
         object-position: bottom;
     }
+
+    @keyframes zoomIn {
+        0% {
+            transform: scale(100%);
+        }
+        100% {
+            transform: scale(150%);
+        }
+    }
 }
 
 
