@@ -50,8 +50,36 @@
     letter-spacing: 2px;
 }
 
-.opcion:hover {
-    color: var(--color-navbar-hover);
+.opcion p {
+    position: relative;    
+}
+
+.opcion p::after {
+    content: '';
+    position: absolute;
+    bottom: -25%;
+    left: 0;
+    width: 100%;
+    transform: scale(0);
+    transform-origin: center bottom; 
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.795);
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.opcion:hover p::after {
+    animation-name: underlineWidth;
+}
+
+@keyframes underlineWidth {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(100%);
+    }
 }
 
 .iconoMenu {
