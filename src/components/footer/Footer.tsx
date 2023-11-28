@@ -12,7 +12,7 @@ function Footer() {
                 <div className="footerContDer">
                     <a className="footerDatosCont footerDatosContPhone flex" href="tel:01147693596">
                         <img src="/images/icons/phone.png" alt="Caternorte Phones Icon" className="footerIcons" />
-                        <p className="footerTextos">4769-3596 &nbsp; 4841-3952</p>
+                        <p className="footerTextos">(011) 4769-3596 &nbsp; 4841-3952</p>
                     </a>
                     <a className="footerDatosCont footerDatosContMail flex" href="mailto:info@caternorte.com.ar">
                         <img src="/images/icons/email.png" alt="Caternorte Email Icon" className="footerIcons footerEmailIcon" />
