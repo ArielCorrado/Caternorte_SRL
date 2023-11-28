@@ -39,6 +39,9 @@ function Foundry () {
                         <img src="/images/products/foundry/8.jpg" alt="Pieza de fundición" className="qualityCardImg" />
                     </div>
                     <div className="qualityCardCont pulleysCardCont foundryCardCont OoS">
+                        <img src="/images/products/foundry/10.jpg" alt="Pieza de fundición" className="qualityCardImg" />
+                    </div>
+                    <div className="qualityCardCont pulleysCardCont foundryCardCont OoS">
                         <img src="/images/products/foundry/9.jpg" alt="Pieza de fundición" className="qualityCardImg" />
                     </div>
                 </div>
