@@ -57,7 +57,7 @@
     }
 
     .imgHome {
-        filter: grayscale(50%) contrast(50%) brightness(50%);
+        filter: grayscale(50%) contrast(60%) brightness(35%);
     }
 }
 
