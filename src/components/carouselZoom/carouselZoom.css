@@ -14,10 +14,10 @@
     object-fit: cover;
     opacity: 0; 
     position: absolute;
-    transition-duration: 3s;
+    transition-duration: 4s;
     transition-property: opacity;                             
     transition-timing-function: ease-out;
-    animation-duration: 9s;                             /*Tiempo de zoom de cada imagen (en el .jsx el setTimeout de la funcion carousel tiene que ser: */
+    animation-duration: 13s;                             /*Tiempo de zoom de cada imagen (en el .jsx el setTimeout de la funcion carousel tiene que ser: */
     animation-timing-function: linear;                  /* animation-duration - transition-duration*/
     animation-fill-mode: forwards;
     filter: grayscale(25%) contrast(90%) brightness(50%);
@@ -45,7 +45,7 @@
         transform: scale(100%);
     }
     100% {
-        transform: scale(115%);
+        transform: scale(125%);
     }
 }
 

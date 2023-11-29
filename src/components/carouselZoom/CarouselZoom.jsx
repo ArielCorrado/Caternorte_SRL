@@ -25,7 +25,7 @@ const CarouselZoom = () => {
             
             setTimeout(() => {
                 carousel();
-            }, 6000);
+            }, 9000);
         }
         carousel()
     
