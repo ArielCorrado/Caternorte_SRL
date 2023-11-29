@@ -86,3 +86,7 @@
 .swal2-icon-content {
     color: #ff5e15;
 }
+
+.sweetConfirmBoton:focus {
+    box-shadow: none !important;
+}
