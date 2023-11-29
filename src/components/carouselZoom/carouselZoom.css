@@ -27,10 +27,6 @@
     filter: grayscale(0) saturate(125%) contrast(80%) brightness(50%);
 }
 
-.imgContrast {
-    filter: contrast(85%);
-}
-
 .zoomIn {
     opacity: 1 !important;
     animation-name: zoomIn !important;
@@ -50,11 +46,7 @@
 }
 
 @media only screen and (orientation: portrait) {
-
-    .img3CarouselHome {
-        object-position: bottom;
-    }
-
+   
     @keyframes zoomIn {
         0% {
             transform: scale(100%);
@@ -62,6 +54,10 @@
         100% {
             transform: scale(150%);
         }
+    }
+
+    .imgHome {
+        filter: grayscale(50%) contrast(50%) brightness(50%);
     }
 }
 
