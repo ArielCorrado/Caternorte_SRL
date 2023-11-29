@@ -115,7 +115,7 @@ const NavBar = () => {
                     <HashLink className="opcion flex" to="/"><p>Empresa</p></HashLink>
                     <HashLink className="opcion flex" to="/infrastructure"><p>Infraestructura</p></HashLink>
                     <HashLink className="opcion flex" to="/products"><p>Productos</p></HashLink>
-                    <HashLink className="opcion flex" to="/"><p>Clientes</p></HashLink>
+                    {/* <HashLink className="opcion flex" to="/"><p>Clientes</p></HashLink> */}
                     <HashLink className="opcion flex" to="/quality"><p>Calidad</p></HashLink>
                     <HashLink className="opcion flex" to="/contact"><p>Contacto</p></HashLink>
                 </div>
