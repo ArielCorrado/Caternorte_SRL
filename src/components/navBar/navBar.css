@@ -109,6 +109,10 @@
     display: none;
 }
 
+.navBarLogoCont {
+    width: 100%;
+    justify-content: flex-start;
+}
 
 /******************************** Clases que se cargan dinamicamente desde el javascript del navbar al superar o bajar de ciertos REM ******************************************/
 
@@ -143,6 +147,7 @@
     display: initial;
     margin: 1rem 0;
     width: 50%;
+    height: auto;
     align-self: flex-start;
 }
 

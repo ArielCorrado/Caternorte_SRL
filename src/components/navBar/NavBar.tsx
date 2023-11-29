@@ -1,6 +1,6 @@
 import { useEffect} from "react";
 import { useLocation } from 'react-router-dom';
-import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 import "./navBar.css";
 
 const NavBar = () => {
@@ -111,13 +111,13 @@ const NavBar = () => {
                 <img className="iconoMenu" src="/images/icons/menu.png" alt="Icono Menu"/>
                 <div className="tapaMenu"></div>
                 <div className="menu flex">
-                    <img src="/images/logos/logom.png" alt="Caternorte Logo" className="navBarLogo"/>
-                    <HashLink className="opcion flex" to="/"><p>Empresa</p></HashLink>
-                    <HashLink className="opcion flex" to="/infrastructure"><p>Infraestructura</p></HashLink>
-                    <HashLink className="opcion flex" to="/products"><p>Productos</p></HashLink>
+                    <Link to="/" className="navBarLogoCont flex"><img src="/images/logos/logom.png" alt="Caternorte Logo" className="navBarLogo"/></Link>
+                    <Link className="opcion flex" to="/"><p>Empresa</p></Link>
+                    <Link className="opcion flex" to="/infrastructure"><p>Infraestructura</p></Link>
+                    <Link className="opcion flex" to="/products"><p>Productos</p></Link>
                     {/* <HashLink className="opcion flex" to="/"><p>Clientes</p></HashLink> */}
-                    <HashLink className="opcion flex" to="/quality"><p>Calidad</p></HashLink>
-                    <HashLink className="opcion flex" to="/contact"><p>Contacto</p></HashLink>
+                    <Link className="opcion flex" to="/quality"><p>Calidad</p></Link>
+                    <Link className="opcion flex" to="/contact"><p>Contacto</p></Link>
                 </div>
                 <div className="sharp"></div>
             </div>
