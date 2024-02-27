@@ -3,7 +3,7 @@
     $data = json_decode($jsonData, true);
 
     $to = 'info@caternorte.com.ar';
-    $from = 'info@caternorte.com.ar';
+    $from = 'info@caternorte.com.ar, ariel.corrado27gmail.com';
         
     $nombre = utf8_decode($data['nombre']);
     $telefono = utf8_decode($data['telefono']);
