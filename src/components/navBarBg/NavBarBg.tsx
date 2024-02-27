@@ -76,9 +76,9 @@ function NavBarBg() {
                     <img src="/images/icons/phone.png" alt="" className="navBarBgContactImg"/>
                     <p>(011) 4769-0187</p>
                 </a>
-                <a className="navBarBgContactEmail flex" href="mailto:info@caternorte.com.ar">
+                <a className="navBarBgContactEmail flex" href="mailto:info@caternortesrl.com.ar">
                     <img src="/images/icons/email.png" alt="" className="navBarBgContactImg"/>
-                    <p>info@caternorte.com.ar</p>                
+                    <p>info@caternortesrl.com.ar</p>                
                 </a>
                 <a className="navBarBgContactLocation flex" href="https://maps.app.goo.gl/esH5A9nVQK4FTpv3A" target="_blank" rel="noreferrer">
                     <img src="/images/icons/location.png" alt="" className="navBarBgContactImg"/>

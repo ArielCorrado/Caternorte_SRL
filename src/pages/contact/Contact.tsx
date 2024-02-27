@@ -70,9 +70,9 @@ function Contact() {
                         </a>
                     </div>
                     <div className='email-contacto flex OoS'>
-                        <a href="mailto:info@caternorte.com.ar" className='flex'>
+                        <a href="mailto:info@caternortesrl.com.ar" className='flex'>
                             <img src="/images/icons/email.png" alt="email" className='imgContactoEmail' />
-                            <h2>info@caternorte.com.ar</h2>
+                            <h2>info@caternortesrl.com.ar</h2>
                         </a>
                     </div>
                     <div className='contTituloContacto flex'>
