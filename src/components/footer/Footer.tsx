@@ -1,4 +1,5 @@
 import "./footer.css";
+import { gtag_report_conversion } from "../../ads/contact";
 
 function Footer() {
     return (
@@ -10,15 +11,15 @@ function Footer() {
                 </div>
                 
                 <div className="footerContDer">
-                    <a className="footerDatosCont footerDatosContPhone flex" href="tel:01147693596">
+                    <a className="footerDatosCont footerDatosContPhone flex" href="tel:01147693596" onClick={gtag_report_conversion}>
                         <img src="/images/icons/phone.png" alt="Caternorte Phones Icon" className="footerIcons" />
                         <p className="footerTextos">(011) 4769-3596 &nbsp; 4841-3952</p>
                     </a>
-                    <a className="footerDatosCont footerDatosContMail flex" href="mailto:info@caternortesrl.com.ar">
+                    <a className="footerDatosCont footerDatosContMail flex" href="mailto:info@caternortesrl.com.ar" onClick={gtag_report_conversion}>
                         <img src="/images/icons/email.png" alt="Caternorte Email Icon" className="footerIcons footerEmailIcon" />
                         <p className="footerTextos">info@caternortesrl.com.ar</p>
                     </a>
-                    <a className="footerDatosCont footerDatosContWs flex" href="https://wa.me/+5491134713398" target="_blank" rel="noreferrer">
+                    <a className="footerDatosCont footerDatosContWs flex" href="https://wa.me/+5491134713398" target="_blank" rel="noreferrer" onClick={gtag_report_conversion}>
                         <img src="/images/icons/ws.png" alt="Caternorte Whatsapp Icon" className="footerIcons" />
                         <p className="footerTextos">+54 911 3471-3398</p>
                     </a>

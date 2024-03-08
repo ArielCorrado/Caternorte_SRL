@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import { SpinnerContext } from "../../context/spinnerContext";
 import waitAllImagesCharged from "../../utils/waitAllImagesCharged";
 import { Link } from "react-router-dom";
+import { gtag_report_conversion } from "../../ads/contact";
 
 function NavBarBg() {
 
@@ -68,15 +69,15 @@ function NavBarBg() {
             <Link to="/" className="navBarBgLogoImgCont"><img src="/images/logos/logom.png" alt="Caternorte Logo" className="navBarBgLogoImg"/></Link>
             <NavBar/>
             <div className="navBarBgContactCont flex">
-                <a className="navBarBgContactWs flex" href="https://wa.me/+5491134713398" target="_blank" rel="noreferrer">
+                <a className="navBarBgContactWs flex" href="https://wa.me/+5491134713398" target="_blank" rel="noreferrer" onClick={gtag_report_conversion}>
                     <img src="/images/icons/ws.png" alt="" className="navBarBgContactImg"/>
                     <p>11 3471-3398</p>
                 </a>
-                <a className="navBarBgContactPhone flex" href="tel:01147690187" target="_blank" rel="noreferrer">
+                <a className="navBarBgContactPhone flex" href="tel:01147690187" target="_blank" rel="noreferrer" onClick={gtag_report_conversion}>
                     <img src="/images/icons/phone.png" alt="" className="navBarBgContactImg"/>
                     <p>(011) 4769-0187</p>
                 </a>
-                <a className="navBarBgContactEmail flex" href="mailto:info@caternortesrl.com.ar">
+                <a className="navBarBgContactEmail flex" href="mailto:info@caternortesrl.com.ar" onClick={gtag_report_conversion}>
                     <img src="/images/icons/email.png" alt="" className="navBarBgContactImg"/>
                     <p>info@caternortesrl.com.ar</p>                
                 </a>

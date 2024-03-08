@@ -2,6 +2,7 @@ import { useRef, useContext } from "react";
 import "./contact.css";
 import { SpinnerContext } from "../../context/spinnerContext";
 import { swalPopUp } from "../../utils/swal";
+import { gtag_report_conversion } from "../../ads/contact";
 
 type formValues = {
     nombre: string;
@@ -40,7 +41,7 @@ function Contact() {
                 } else {
                     const inputs: NodeListOf<HTMLInputElement> = document.querySelectorAll(".inputForm");
                     inputs.forEach((input) => input.value = "");
-                    // contactAds();           //Llamada a funcion de conversion de google ads
+                    gtag_report_conversion();
                     swalPopUp("Enviado!", "Mensaje Enviado con Exito, Gracias por Contactarnos!", "success");
                 } 
                 
