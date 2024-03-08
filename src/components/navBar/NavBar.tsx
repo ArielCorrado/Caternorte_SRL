@@ -9,6 +9,21 @@ const NavBar = () => {
 
     useEffect(() => {       //Al cambiar de pagina el scroll se va arriba
         window.scrollTo({top: 0})
+
+        /**************************** Cambio dinamico de titulos de paginas ***************************/
+                       
+        const path = thisLocation.pathname;
+        const pagesTitleArr = [
+            {path: "/ ", title: "Caternorte. Especialistas en Fundición de Metales"},
+            {path: "/infrastructure", title: "Infraestructura"},
+            {path: "/products", title: "Productos"},
+            {path: "/quality", title: "Calidad"},
+            {path: "/contact", title: "Contacto"},
+        ]
+
+        const pageData = pagesTitleArr.find((page) => path.includes(page.path));
+        document.title = pageData?.title || "Caternorte. Especialistas en Fundición de Metales";
+              
     }, [thisLocation])
             
     useEffect(() => {
