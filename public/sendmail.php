@@ -2,8 +2,8 @@
     $jsonData = file_get_contents('php://input');
     $data = json_decode($jsonData, true);
 
-    $to = 'info@caternortesrl.com.ar';
-    $from = 'info@caternortesrl.com.ar';
+    $to = 'cotizaciones@caternortesrl.com.ar';
+    $from = 'cotizaciones@caternortesrl.com.ar';
         
     $nombre = utf8_decode($data['nombre']);
     $telefono = utf8_decode($data['telefono']);
@@ -46,7 +46,7 @@
         'X-Mailer: PHP/' . phpversion();
     
     // Enviar el correo electrónico
-    $mail = mail($to, $nombre . ' ' . ' Dejo un mensaje en caternorte.com.ar', $messageHTML, $cabecera);
+    $mail = mail($to, $nombre . ' ' . ' Dejó un mensaje en caternortesrl.com.ar', $messageHTML, $cabecera);
 
     if ($mail) {
         echo json_encode(array('msg' => 'Correo enviado exitosamente'));
