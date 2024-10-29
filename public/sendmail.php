@@ -3,13 +3,14 @@
     $data = json_decode($jsonData, true);
 
     $to = 'cotizaciones@caternortesrl.com.ar';
-    $from = 'cotizaciones@caternortesrl.com.ar';
-        
+    
     $nombre = utf8_decode($data['nombre']);
     $telefono = utf8_decode($data['telefono']);
     $email = utf8_decode($data['email']);
     $empresa = utf8_decode($data['empresa']);
     $mensaje = utf8_decode($data['mensaje']);
+    
+    $from = $email;
    
     $messageHTML = "
 
